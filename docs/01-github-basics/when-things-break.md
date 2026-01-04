@@ -186,6 +186,13 @@ You can't always prevent conflicts, but you can reduce them:
 - Communicate with team about who's editing what
 - Keep changes small and focused
 
+### For Complex Conflicts
+
+When conflicts involve many files or complex logic:
+- **Use AI agents** - See **[Agent-Assisted Resolution](agent-assisted-resolution.md)** for step-by-step AI guidance
+- **Ask for help** - Share your git status with AI tools like GitHub Copilot, ChatGPT, or Claude
+- **Take it slow** - Resolve one file at a time, testing after each
+
 ## Recovering Lost Work
 
 ### "I Deleted My Changes!"
@@ -506,6 +513,7 @@ git stash apply stash@{1}
 ## Next Steps
 
 Now that you know how to recover:
+- **[Agent-Assisted Resolution](agent-assisted-resolution.md)** - Use AI agents for complex scenarios
 - **[Common Mistakes](common-mistakes.md)** - Prevent problems
 - **[Branches and Commits](branches-and-commits.md)** - Understand the fundamentals
 - **[Exercises](../../exercises/github-fundamentals/)** - Practice in a safe environment

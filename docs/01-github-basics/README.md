@@ -50,6 +50,7 @@ Start with **[Pull Requests Explained](pull-requests-explained.md)** - How to co
 5. **[First 10 Minutes](first-10-minutes.md)** - Hands-on guided exploration
 6. **[Common Mistakes](common-mistakes.md)** - What everyone gets wrong initially
 7. **[When Things Break](when-things-break.md)** - Recovery strategies
+8. **[Agent-Assisted Resolution](agent-assisted-resolution.md)** - Using AI agents for complex Git scenarios
 
 ## Feeling Stuck?
 
