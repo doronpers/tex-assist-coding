@@ -462,7 +462,8 @@ Create `test_main.py` with pytest.
 → [API Basics](../../docs/04-patterns/api-basics/) - Common API patterns
 
 **Understand workflows:**
-→ [Single-Agent Workflow](../../docs/03-workflow-building/single-agent-workflow.md)
+→ [Start Simple](../../docs/03-workflow-building/start-simple.md) - Basic workflow approach
+→ [AI Tools](../../docs/02-ai-tools/README.md) - Using AI effectively
 
 ## Reflect on Your Process
 

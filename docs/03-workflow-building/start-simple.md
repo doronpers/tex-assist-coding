@@ -461,14 +461,14 @@ But start here!
 - Good! Simple is powerful
 - Use it for 2 weeks
 - Then add complexity as needed
-- See [Stages of Development](stages-of-development.md)
+- Build your own workflow stages *(Coming soon)*
 
 ## Next Steps
 
 Once comfortable with Three Questions:
-- **[Single-Agent Workflow](single-agent-workflow.md)** - Add AI assistance
-- **[Stages of Development](stages-of-development.md)** - Understand full process
-- **[Evolving Your Process](evolving-your-process.md)** - Grow your workflow
+- **Using AI Assistance** - Add AI tools to your workflow *(See [AI Tools](../02-ai-tools/README.md))*
+- **Agent-Assisted Resolution** - Complex problem solving with AI *(See [Agent-Assisted Resolution](../01-github-basics/agent-assisted-resolution.md))*
+- **Workflow Evolution** - Grow your process over time *(Coming soon)*
 
 ---
 
