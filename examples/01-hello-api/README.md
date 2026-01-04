@@ -274,13 +274,13 @@ Go to http://localhost:8000/docs
 After building this project:
 
 ### If you want more API practice:
-→ Explore **[API Basics](../../docs/04-patterns/api-basics/)** patterns and extend this project
+→ Explore the API basics section in the **[Patterns overview](../../docs/04-patterns/README.md)** and extend this project
 
 ### If you want to add features:
 → Try the extensions above
 
 ### If you want to understand patterns:
-→ **[API Basics](../../docs/04-patterns/api-basics/)** - Common patterns
+→ **[Patterns overview](../../docs/04-patterns/README.md)** - See the API basics section
 
 ### If you want to design a simple workflow:
 → **[Start simple](../../docs/03-workflow-building/start-simple.md)**
