@@ -275,12 +275,31 @@ def read_root():
 
 @app.get("/hello/{name}")
 def greet_user(name: str):
-    """Greet a specific user by name."""
+    """
+    Greet a specific user by name.
+    
+    Args:
+        name: The user's name
+        
+    Returns:
+        A personalized greeting message
+    """
     return {"message": f"Hello, {name}!"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int):
-    """Get item information by ID."""
+    """
+    Get item information by ID.
+    
+    Args:
+        item_id: The item's unique identifier
+        
+    Returns:
+        Item details including ID, name, and description
+        
+    Raises:
+        HTTPException: If item_id is out of valid range
+    """
     # Simple validation - items must be between 1 and 1000
     if item_id < 1 or item_id > 1000:
         raise HTTPException(
@@ -327,6 +346,7 @@ fastapi==0.115.5
 uvicorn==0.32.1
 pydantic==2.10.3
 ```
+These are the exact versions in `examples/01-hello-api/requirements.txt`.
 
 ### Step 5.2: Create .gitignore
 
