@@ -43,12 +43,15 @@ You should see `(venv)` in your terminal.
 ### Step 1.3: Install FastAPI and Uvicorn
 
 ```bash
-pip install fastapi uvicorn
+pip install -r requirements.txt
 ```
 
 **What we just installed:**
 - **FastAPI** - The web framework (makes building APIs easy)
 - **Uvicorn** - The web server (runs your API)
+- **Pydantic** - Data validation library FastAPI relies on
+
+> Tip: If you don't have `requirements.txt` yet, install the same packages individually (`pip install fastapi uvicorn pydantic`) and pin them later in Part 5.
 
 ### Step 1.4: Create Project Files
 
@@ -61,6 +64,8 @@ type nul > main.py
 type nul > requirements.txt  
 type nul > .gitignore
 ```
+
+> Note: In this repository, `main.py` and `requirements.txt` are already present. Add a `.gitignore` if you're starting from scratch.
 
 ## Part 2: The Minimal API (10-15 minutes)
 
@@ -259,27 +264,35 @@ def read_item(item_id: int):
 Your complete `main.py` should look like:
 
 ```python
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
 @app.get("/")
 def read_root():
-    """Root endpoint."""
+    """Root endpoint - returns a simple greeting."""
     return {"message": "Hello, World!"}
 
 @app.get("/hello/{name}")
 def greet_user(name: str):
-    """Greet a specific user."""
+    """Greet a specific user by name."""
     return {"message": f"Hello, {name}!"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int):
-    """Get item by ID."""
+    """Get item information by ID."""
+    # Simple validation - items must be between 1 and 1000
+    if item_id < 1 or item_id > 1000:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Item {item_id} not found"
+        )
+
     return {
         "item_id": item_id,
         "name": f"Item #{item_id}",
-        "description": "This is a sample item"
+        "description": "This is a sample item",
+        "in_stock": True
     }
 
 if __name__ == "__main__":
@@ -304,13 +317,15 @@ All working? Great! 🎉
 This file lists all dependencies so others can install them.
 
 ```bash
-pip freeze > requirements.txt
+# If you're following along in THIS repo, requirements.txt is already provided
+# If you're recreating from scratch, pin the versions you used
 ```
 
-Or manually create `requirements.txt`:
+If you need to create `requirements.txt`, use the pinned versions from this repo:
 ```
-fastapi==0.104.1
-uvicorn==0.24.0
+fastapi==0.115.5
+uvicorn==0.32.1
+pydantic==2.10.3
 ```
 
 ### Step 5.2: Create .gitignore
@@ -456,7 +471,7 @@ Create `test_main.py` with pytest.
 ## Where to Go From Here
 
 **Next project:**
-→ [02-todo-app](../02-todo-app/) - Build a full CRUD application
+→ Extend this API using [API Basics patterns](../../docs/04-patterns/api-basics/) (no separate todo app in this repo yet)
 
 **Learn patterns:**
 → [API Basics](../../docs/04-patterns/api-basics/) - Common API patterns
