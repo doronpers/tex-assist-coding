@@ -60,14 +60,13 @@ Year 1: Your unique sophisticated workflow
 ## What You'll Learn Here
 
 1. **[Start Simple](start-simple.md)** - The Three Questions Workflow (anyone can do this)
-2. **[Stages of Development](stages-of-development.md)** - Plan, Build, Test, Review explained
-3. **[Single-Agent Workflow](single-agent-workflow.md)** - Using one AI effectively
-4. **[Multi-Agent Workflow](multi-agent-workflow.md)** - Multiple AIs as checks
-5. **[Choosing Stages](choosing-stages.md)** - Pick what matters for YOUR projects
-6. **[Workflow Examples](workflow-examples.md)** - Sample workflows for different scenarios
-7. **[Evolving Your Process](evolving-your-process.md)** - How workflows grow with you
-8. **[Decision Framework](decision-framework.md)** - When to use what approach
-9. **[Workflow Builder](workflow-builder.md)** - Interactive guide to design yours
+2. **Stages of Development** - Plan, Build, Test, Review explained *(Coming soon)*
+3. **Using AI in Your Workflow** - Single and multi-agent approaches *(Coming soon)*
+4. **Choosing Stages** - Pick what matters for YOUR projects *(Coming soon)*
+5. **Workflow Examples** - Sample workflows for different scenarios *(Coming soon)*
+6. **Evolving Your Process** - How workflows grow with you *(Coming soon)*
+7. **Decision Framework** - When to use what approach *(Coming soon)*
+8. **Workflow Builder** - Interactive guide to design yours *(Coming soon)*
 
 ## The Simplest Possible Workflow
 
@@ -395,11 +394,11 @@ Adjust workflow accordingly!
 **If you're new to all this:**
 → Start with **[Start Simple](start-simple.md)** - The Three Questions
 
-**If you want to understand stages:**
-→ Read **[Stages of Development](stages-of-development.md)**
+**If you want to understand AI tools:**
+→ Read **[AI Tools](../02-ai-tools/README.md)** - Compare and choose tools
 
-**If you're ready to build a workflow:**
-→ Use **[Workflow Builder](workflow-builder.md)** - Interactive guide
+**If you're ready to experiment:**
+→ Try the **[Examples](../../examples/)** - Build real projects
 
 **If you want examples:**
 → See **[Workflow Examples](workflow-examples.md)**
