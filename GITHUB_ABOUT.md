@@ -73,9 +73,9 @@ These help target the right learners:
 - `no-code`
 - `technical-leaders`
 
-## Complete Recommended Topic List (30 max)
+## Complete Recommended Topic List
 
-GitHub allows up to 20 topics to be displayed prominently. Here's the prioritized list:
+GitHub allows up to 20 topics to be displayed prominently. Here's the prioritized list of 25 recommended topics:
 
 **Top 20 (Most Important):**
 1. `ai-assisted-coding`
