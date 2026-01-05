@@ -4,23 +4,25 @@ This document provides the optimal "About" section text and topic tags for the t
 
 ## About Section Description
 
-**Recommended Text (160 characters max for optimal display):**
+**Recommended Text (140 characters):**
 
 ```
 Learn to code with AI as your pair programmer. Complete guide for beginners: GitHub basics, AI tools, workflow design, examples & exercises.
 ```
 
-**Alternative Option 1 (Shorter, 138 characters):**
+**Alternative Option 1 (Shorter, 128 characters):**
 
 ```
 Master AI-assisted coding from scratch. Beginner-friendly guide with examples, exercises, and no timeline. Start building today.
 ```
 
-**Alternative Option 2 (Focus on audience, 148 characters):**
+**Alternative Option 2 (Focus on audience, 129 characters):**
 
 ```
 AI-assisted coding for complete beginners to technical leaders. Self-paced learning with examples, exercises, and multiple paths.
 ```
+
+**Note**: GitHub's repository description field accepts up to 350 characters, but keeping it concise (under 160 characters) ensures it displays fully in search results and social media previews.
 
 ## Recommended Repository Topics
 
