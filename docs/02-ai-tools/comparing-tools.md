@@ -39,6 +39,7 @@ Quick question while coding?
 | **Context** | Current files | What you paste | What you paste | Entire codebase |
 | **Best For** | Writing code | Learning | Code review | Full features |
 | **Explanation** | Limited | Excellent | Excellent | Good |
+| **Voice Input** | No | Yes (Plus/mobile) | Yes (mobile) | No |
 | **Cost** | $10/mo | Free + $20/mo | Free + $20/mo | Free + $20/mo |
 | **Offline** | No | No | No | No |
 
@@ -90,6 +91,7 @@ Conversational AI for questions, explanations, and code generation.
 - ✅ Handles follow-up questions well
 - ✅ Good at brainstorming
 - ✅ Web browsing (GPT-4)
+- ✅ Voice input (Plus subscribers, mobile apps)
 
 **Weaknesses:**
 - ❌ Need to copy-paste code in/out
@@ -127,6 +129,7 @@ Conversational AI with strong reasoning and analysis.
 - ✅ Admits uncertainty more readily
 - ✅ Handles long documents well
 - ✅ More careful about security
+- ✅ Voice input (mobile apps)
 
 **Weaknesses:**
 - ❌ Can be verbose
