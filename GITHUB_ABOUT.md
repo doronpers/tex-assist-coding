@@ -75,7 +75,7 @@ These help target the right learners:
 
 ## Complete Recommended Topic List
 
-GitHub allows up to 20 topics to be displayed prominently. Here's the prioritized list of 25 recommended topics:
+GitHub allows repositories to have up to 20 topics. Here's the prioritized list of 25 recommended topics (use the top 20):
 
 **Top 20 (Most Important):**
 1. `ai-assisted-coding`
@@ -156,9 +156,10 @@ Topics were selected based on:
 
 ### Tips:
 - GitHub will suggest topics based on repository content
-- You can add up to 20 topics
+- You can add up to 20 topics (this is GitHub's current limit)
 - Topics are clickable and help users discover similar repositories
 - Topics can be changed anytime as the repository evolves
+- Topics must be lowercase, alphanumeric, and can include hyphens
 
 ## Monitoring and Iteration
 
@@ -172,24 +173,26 @@ Consider reviewing and updating the About section and topics:
 ## Alternative Configurations
 
 ### Configuration for Maximum Discoverability
-Focus on popular search terms:
+Focus on popular search terms (using consistent hyphenation):
 ```
 ai-coding, github-copilot, chatgpt, learn-to-code, coding-tutorial, 
-beginner-programming, ai-tools, python-tutorial, coding-for-beginners
+beginner-programming, ai-tools, python-tutorial, coding-for-beginners,
+machine-learning, artificial-intelligence
 ```
 
 ### Configuration for Target Audience Focus
-Focus on who this is for:
+Focus on who this is for (using consistent hyphenation):
 ```
-beginner-friendly, no-code-to-code, technical-leaders, career-changer,
-first-time-coder, coding-education, self-paced-learning
+beginner-friendly, beginners, technical-leaders, coding-education, 
+self-paced, developer-learning, learning-guide, hands-on-learning,
+educational
 ```
 
 ### Configuration for Content Type Focus
-Focus on what's inside:
+Focus on what's inside (using consistent hyphenation):
 ```
-tutorial, examples, exercises, documentation, templates, learning-path,
-hands-on, step-by-step, project-based
+tutorial, examples, exercises, documentation, templates, learning-guide,
+hands-on-learning, step-by-step, project-based, workflow-design
 ```
 
 ## Current Status
