@@ -90,6 +90,12 @@ Found something confusing? Have a better explanation? Built something cool?
 - Submit a PR
 - Share your learning journey
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## 📝 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a list of changes and version history.
+
 ## 📄 License
 
 MIT License - Use freely, adapt, share, build upon
