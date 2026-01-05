@@ -1,5 +1,10 @@
 # AI-Assisted Coding Guide
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/doronpers/tex-assist-coding.svg?style=social&label=Star)](https://github.com/doronpers/tex-assist-coding)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://www.markdownguide.org/)
+
 Learn to code with AI as your pair programmer. No timeline, no pressure - explore at your own pace.
 
 ## 🎯 What This Is

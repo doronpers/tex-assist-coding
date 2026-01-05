@@ -20,9 +20,10 @@ AI coding assistants are like having an experienced developer looking over your 
 - Great for: Writing repetitive code, learning patterns
 
 ### ChatGPT / Claude
-- Chat-based assistants
+- Chat-based assistants (text and voice)
 - Explain concepts, debug issues, plan architecture
 - Can read and write full files
+- Voice input available (ChatGPT Plus, Claude mobile)
 - Great for: Learning, debugging, design discussions
 
 ### Cursor / Windsurf
@@ -145,6 +146,26 @@ You: Is this the right way to handle database connections in Python?
 
 AI: This works, but there's a better pattern using context managers...
 ```
+
+## Voice Input Features
+
+Both ChatGPT and Claude now support voice input, allowing you to:
+- **Describe problems verbally** - Explain bugs or requirements by talking
+- **Code while away from keyboard** - Use mobile apps with voice
+- **Brainstorm out loud** - Discuss architecture and design ideas
+- **Learn on the go** - Ask questions during commute or breaks
+
+**Note:** Voice input is available in:
+- ChatGPT Plus (mobile app and web with voice mode)
+- Claude mobile apps (iOS and Android)
+
+This can be especially helpful when:
+- You're thinking through a complex problem
+- You want to explain an issue naturally
+- You're multitasking or away from your computer
+- You learn better through conversation
+
+The AI will respond in text or voice (depending on the app), making it feel like discussing code with a colleague.
 
 ## Common Questions
 
