@@ -1,6 +1,19 @@
 # Scenario: Complete Beginner Learning Path
 
-You've never written code before. You're curious about AI-assisted development but don't know where to start. This is your path.
+You've never written code before. You're curious about AI-assisted development but don't know where to start. This is YOUR path - use it as a menu, not a prescription.
+
+## 🐴 Dark Horse Note
+
+**This path is a SUGGESTION, not a requirement.** Built on [Dark Horse principles](../docs/dark-horse-approach.md):
+
+- **Use as menu, not prescription** - Pick what energizes you, skip what doesn't
+- **Discover your micro-motives** - What SPECIFICALLY energizes you about coding? [Find out →](../exercises/discover-your-micro-motives.md)
+- **Your pace, your order** - Month 1 content might not happen in Month 1 - that's fine
+- **Compare to past self only** - Not to the timeline, not to others, only to yesterday's you
+
+**Permission: Deviate freely. This succeeds when it serves YOU.**
+
+---
 
 ## Your Situation
 
@@ -56,7 +69,12 @@ Ask ChatGPT: "Explain what a git repository is like I'm 5 years old"
 - [Branches and Commits](../docs/01-github-basics/branches-and-commits.md)
 - [Common Mistakes](../docs/01-github-basics/common-mistakes.md)
 
-**Success:** You can create branches and commit changes
+**✨ Dark Horse Addition: Discover your micro-motives**
+- Try [Micro-motives Discovery Exercise](../exercises/discover-your-micro-motives.md)
+- Understanding what energizes YOU will guide all future choices
+- No wrong answers - just self-awareness
+
+**Success:** You can create branches and commit changes + you're starting to understand what energizes you about coding
 
 ---
 
@@ -132,6 +150,18 @@ Assume I'm a complete beginner."
 - Habit tracker
 
 **Why personal:** You'll stay motivated because it's yours.
+
+**🐴 Dark Horse Approach:**
+
+Instead of "good first projects," ask: **What problem do I actually want to solve? What would energize ME?**
+
+**Aligned with your micro-motives:**
+- If you love immediate visual feedback → Build something with UI
+- If you love logic puzzles → Build an algorithm or game logic
+- If you love helping others → Build something that solves a real problem
+- If you love learning how things work → Rebuild something that exists to understand it
+
+**Your project should energize you. If it doesn't, pick a different one.**
 
 **Your workflow:**
 ```
@@ -236,6 +266,10 @@ Assume I'm a complete beginner."
 
 ## Milestones to Celebrate
 
+**🐴 Dark Horse Principle: These are examples. YOUR milestones are personal.**
+
+Don't check boxes to match others. Check them when they're true for you. Add your own.
+
 Track your progress:
 
 - [ ] First GitHub account created
@@ -244,14 +278,21 @@ Track your progress:
 - [ ] First branch created and merged
 - [ ] First "Hello World" program
 - [ ] First web app running
-- [ ] First app that does something useful
+- [ ] First app that does something useful (to ME)
 - [ ] First bug found and fixed
 - [ ] First project completed
 - [ ] First project deployed online
 - [ ] First time helping another beginner
 - [ ] First job application / freelance project
+- [ ] First time I worked in flow state for hours
+- [ ] First moment coding felt natural
+- [ ] First time I solved a problem independently
+- [ ] *Add your own: _______________*
+- [ ] *Add your own: _______________*
 
 **Every checkbox is an achievement! 🎉**
+
+**Remember: Don't compare your timeline to anyone else's. Compare to your past self only.**
 
 ---
 

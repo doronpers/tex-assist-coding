@@ -4,8 +4,11 @@ Quick reference to find what you need. Organized by purpose.
 
 ## 🎯 Start Here
 
+**Want to learn YOUR way?** ⭐ NEW
+→ [Dark Horse Approach](docs/dark-horse-approach.md) - Honor your individuality, not standardized paths
+
 **Complete beginner?**
-→ [Complete Beginner Path](scenarios/complete-beginner-path.md) - Your month-by-month roadmap
+→ [Complete Beginner Path](scenarios/complete-beginner-path.md) - Your month-by-month roadmap (use as menu, not prescription)
 
 **Know what you want?**
 → [README Quick Start](README.md#-quick-start-pick-your-path) - Pick your learning path
@@ -69,6 +72,7 @@ Quick reference to find what you need. Organized by purpose.
   - [Create Your First Branch](exercises/github-fundamentals/02-create-branch.md)
 
 ### Learning Scenarios
+- [Dark Horse Approach](docs/dark-horse-approach.md) ⭐ NEW - Optimize for your individuality
 - [Complete Beginner Path](scenarios/complete-beginner-path.md) - Month-by-month learning plan
 - [Technical Leader Learning](scenarios/technical-leader-learning.md) - For managers learning code
 

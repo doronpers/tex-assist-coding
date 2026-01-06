@@ -31,9 +31,15 @@ Track your AI-assisted coding journey. No judgment, just reflection and growth.
 *Successes, breakthroughs, things that clicked*
 
 
+**Energy check:** What specifically energized me today? (helps track micro-motives)
+
+
 ### What Was Challenging 🤔
 
 *Struggles, confusions, things that didn't work*
+
+
+**Energy check:** What drained my energy? (helps identify misalignment)
 
 
 ### What I Learned 💡
@@ -118,6 +124,9 @@ Track your AI-assisted coding journey. No judgment, just reflection and growth.
 ### Pattern I Noticed
 
 *Any recurring themes in successes or struggles?*
+
+
+**Micro-motive patterns:** What types of activities energized me? What drained me?
 
 
 ### Adjustment for Next Week
