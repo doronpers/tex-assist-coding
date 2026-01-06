@@ -60,13 +60,13 @@ Year 1: Your unique sophisticated workflow
 ## What You'll Learn Here
 
 1. **[Start Simple](start-simple.md)** - The Three Questions Workflow (anyone can do this)
-2. **Stages of Development** - Plan, Build, Test, Review explained *(Coming soon)*
-3. **Using AI in Your Workflow** - Single and multi-agent approaches *(Coming soon)*
-4. **Choosing Stages** - Pick what matters for YOUR projects *(Coming soon)*
-5. **Workflow Examples** - Sample workflows for different scenarios *(Coming soon)*
-6. **Evolving Your Process** - How workflows grow with you *(Coming soon)*
-7. **Decision Framework** - When to use what approach *(Coming soon)*
-8. **Workflow Builder** - Interactive guide to design yours *(Coming soon)*
+2. **[Stages of Development](stages-of-development.md)** - Plan, Build, Test, Review explained
+3. **[Using AI in Your Workflow](using-ai-in-workflow.md)** - Single and multi-agent approaches
+4. **[Choosing Stages](choosing-stages.md)** - Pick what matters for YOUR projects
+5. **[Workflow Examples](workflow-examples.md)** - Sample workflows for different scenarios
+6. **[Evolving Your Process](evolving-your-process.md)** - How workflows grow with you
+7. **[Decision Framework](decision-framework.md)** - When to use what approach
+8. **[Workflow Builder](workflow-builder.md)** - Interactive guide to design yours
 
 ## The Simplest Possible Workflow
 
@@ -401,7 +401,7 @@ Adjust workflow accordingly!
 → Try the **[Examples](../../examples/)** - Build real projects
 
 **If you want examples:**
-→ See **[Workflow Examples](workflow-examples.md)**
+→ See **[Workflow Examples](workflow-examples.md)** - Real scenarios with complete workflows
 
 ## Common Questions
 
