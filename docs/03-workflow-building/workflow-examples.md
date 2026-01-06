@@ -2,6 +2,19 @@
 
 Real workflows from real scenarios. Learn by seeing complete examples from idea to deployment.
 
+## 🐴 Dark Horse Note
+
+**These are examples, not prescriptions.** Your workflow should match:
+- **Your micro-motives** - What energizes you?
+- **Your context** - Your project's reality
+- **Your style** - How you work best
+
+**Use these as inspiration, not templates to copy exactly.**
+
+If an example workflow feels wrong for you, trust that feeling and adapt it. Your optimal workflow emerges from YOUR experience, not from copying others.
+
+---
+
 ## How to Use These Examples
 
 Each example shows:

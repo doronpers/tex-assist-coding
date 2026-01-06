@@ -74,6 +74,27 @@ Think of AI tools like having a coding buddy who:
 
 ## Learning Philosophy
 
+**🐴 Dark Horse Approach to AI Tools**
+
+**Your relationship with AI is personal.** What works for others might not work for you.
+
+**Consider your micro-motives:**
+- **Love instant feedback?** → Copilot's inline suggestions might energize you
+- **Love understanding deeply?** → Claude/ChatGPT explanations might fit better
+- **Love context and flow?** → AI-native editors might be your match
+- **Love simplicity?** → One tool at a time might be optimal
+- **Love experimentation?** → Try everything and pick favorites
+
+**There's no "correct" level of AI usage:**
+- Some developers use AI for 80% of code → Valid
+- Some use AI only for boilerplate → Valid
+- Some use AI mainly for learning → Valid
+- Some barely use AI at all → Also valid
+
+**Permission: Use AI however it serves YOU. Ignore "best practices" that feel wrong.**
+
+---
+
 ### Start with Trust, Build Skepticism
 
 **In the beginning:**
@@ -91,12 +112,19 @@ Think of AI tools like having a coding buddy who:
 - You guide, AI assists
 - Fast development with confidence
 
-### No Timeline
+### No Timeline, YOUR Timeline
+
+**Standardized thinking:** "You should master AI tools in 2 weeks"
+
+**Dark Horse thinking:** "I'll develop my relationship with AI at my own pace"
 
 Everyone learns AI tools differently:
-- Some people "get it" in a day
-- Some people take weeks to feel comfortable
-- Some people prefer certain tools over others
+- Some people "get it" in a day → That's their path
+- Some people take weeks to feel comfortable → That's their path
+- Some people prefer certain tools over others → That's preference
+- Your timeline is YOUR timeline - compare only to your past self
+
+**Focus on:** Am I more effective than last week? Am I enjoying the process?
 
 **All of these are normal.** Use what works for you.
 

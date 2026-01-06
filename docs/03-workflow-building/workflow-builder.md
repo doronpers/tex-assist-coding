@@ -20,6 +20,23 @@ Work through each section and write down your answers.
 
 ### Section A: About You
 
+**A0. Your micro-motives (MOST IMPORTANT):**
+
+Have you done the [Micro-motives Discovery Exercise](../../exercises/discover-your-micro-motives.md)?
+- [ ] Yes - I know what energizes me
+- [ ] No - Will do it first (recommended!)
+- [ ] Partially - I have some sense
+
+**What specifically energizes you about coding?** (Write 2-3 things)
+
+1. 
+2. 
+3. 
+
+**Keep these in mind as you answer the rest - they should guide all choices.**
+
+---
+
 **A1. Your experience level:**
 - [ ] Complete beginner (never coded before)
 - [ ] Novice (< 6 months coding)
