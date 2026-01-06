@@ -1,6 +1,23 @@
 # Comparing AI Coding Tools
 
-Different tools for different tasks. Let's figure out when to use what.
+Different tools for different tasks. Let's figure out what works for YOU.
+
+## 🐴 Dark Horse Note
+
+**There's no "best" tool - only the best tool FOR YOU right now.**
+
+**Your optimal choice depends on:**
+- Your micro-motives (what energizes you?)
+- Your workflow style (integrated vs. separate?)
+- Your learning style (doing vs. understanding first?)
+- Your budget (free vs. paid?)
+- Your project context (quick experiment vs. production?)
+
+**Permission: Start with one tool. Add more only if they serve you. Drop tools that don't fit.**
+
+**Ignore "everyone uses X" - use what works for YOUR brain and workflow.**
+
+---
 
 ## Quick Decision Guide
 

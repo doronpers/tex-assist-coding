@@ -149,6 +149,15 @@ That's it! Everything else builds from this foundation.
 
 ## Choosing Your Starting Point
 
+**🐴 Dark Horse reminder:** These are suggestions based on common patterns. YOUR optimal starting point might be different.
+
+**Better question than "Where should I start?":**
+→ "Which workflow sounds most energizing to me right now?"
+
+**Trust your gut. Your micro-motives know.**
+
+---
+
 ### "I've never coded before"
 
 **Start with:** Three Questions Workflow
@@ -156,6 +165,9 @@ That's it! Everything else builds from this foundation.
 **Why:** Builds thinking skills without overwhelming you
 
 **Next step:** Add manual testing after 2 weeks
+
+**But if:** This feels too structured → Just start coding and reflect after
+**Or if:** This feels too loose → Jump to Balanced workflow
 
 ### "I've built a few things"
 
@@ -165,6 +177,9 @@ That's it! Everything else builds from this foundation.
 
 **Next step:** Add automated tests when comfortable
 
+**But if:** You love chaos and exploring → Stay minimal longer
+**Or if:** You crave more structure → Add testing immediately
+
 ### "I'm building production software"
 
 **Start with:** Rigorous workflow
@@ -172,6 +187,9 @@ That's it! Everything else builds from this foundation.
 **Why:** Quality and reliability matter
 
 **Next step:** Customize based on your domain
+
+**But if:** This feels crushing → Simplify until sustainable
+**Or if:** You need more → Add domain-specific stages
 
 ## The Workflow Evolution Path
 

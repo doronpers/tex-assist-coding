@@ -1,6 +1,29 @@
 # Scenario: Technical Leader Learning to Code
 
-You're managing a development team but want to understand code yourself. Here's your path.
+You're managing a development team but want to understand code yourself. Here's YOUR path - customize it to your unique situation.
+
+## 🐴 Dark Horse for Leaders
+
+**Leadership + coding is YOUR unique path.** Built on [Dark Horse principles](../../docs/dark-horse-approach.md):
+
+**Your micro-motives as a leader might be:**
+- Understanding to make better decisions (strategy-driven)
+- Building credibility with technical team (relationship-driven)
+- Personal intellectual curiosity (learning-driven)
+- Wanting to contribute technically (hands-on driven)
+- Need to evaluate technical claims (judgment-driven)
+
+**Your micro-motives matter.** They determine:
+- How deep you go (Overview? Hands-on? Deep technical?)
+- What you prioritize (Reading code? Writing? Architecture?)
+- Your learning style (Conceptual first? Hands-on first?)
+- Your success metrics (Team trust? Decision quality? Personal satisfaction?)
+
+**Permission: Your path will look different from a new developer's path - that's the point.**
+
+[Do micro-motives exercise](../../exercises/discover-your-micro-motives.md) adapted for your leadership context.
+
+---
 
 ## Your Situation
 
@@ -300,7 +323,7 @@ Architecture Review: "Compare these two approaches for [system]"
 - "Why did we choose this approach over [alternative]?"
 - "How do we test this?"
 
-### 4. Focus on the "Why," Not the "How"
+### 3. Focus on the "Why," Not the "How"
 
 **Your focus:**
 - Why this solution?
@@ -312,6 +335,20 @@ Architecture Review: "Compare these two approaches for [system]"
 - Exact syntax
 - Implementation details (unless critical)
 - Low-level optimization
+
+**🐴 Dark Horse Addition:**
+
+**Your role = Leadership + Technical Understanding = Unique value**
+
+Don't try to be "as technical as your developers" - that's standardization thinking.
+
+**Your unique value:**
+- Leadership perspective + technical literacy
+- Business context + engineering constraints
+- Strategic thinking + implementation awareness
+- People skills + technical judgment
+
+**Focus on YOUR optimal combination, not matching someone else's profile.**
 
 ## Conversations You Can Now Have
 
