@@ -30,31 +30,34 @@ Learn to code with AI as your pair programmer. No timeline, no pressure - explor
 
 ## 🚀 Quick Start (Pick Your Path)
 
-### Path 1: "I've never used GitHub"
+### Path 1: "I've never coded before" ✨ NEW
+→ Start with [`scenarios/complete-beginner-path.md`](scenarios/complete-beginner-path.md) - Your complete roadmap
+
+### Path 2: "I've never used GitHub"
 → Start with [`docs/01-github-basics/README.md`](docs/01-github-basics/README.md)
 
-### Path 2: "I want to understand AI coding tools"
+### Path 3: "I want to understand AI coding tools"
 → Start with [`docs/02-ai-tools/README.md`](docs/02-ai-tools/README.md)
 
-### Path 3: "I want to build something NOW"
+### Path 4: "I want to build something NOW"
 → Start with [`examples/01-hello-api/`](examples/01-hello-api/) and follow HOW_TO_BUILD.md
 
-### Path 4: "I want to design my workflow"
+### Path 5: "I want to design my workflow"
 → Start with [`docs/03-workflow-building/README.md`](docs/03-workflow-building/README.md)
 
-### Path 5: "I'm a technical leader learning to oversee developers"
+### Path 6: "I'm a technical leader learning to oversee developers"
 → Start with [`scenarios/technical-leader-learning.md`](scenarios/technical-leader-learning.md)
 
 ## 📚 What's Inside
 
-- **[GitHub Basics](docs/01-github-basics/)** - Version control, repos, branches, PRs (with analogies)
-- **[AI Tools](docs/02-ai-tools/)** - Copilot, Claude, ChatGPT - how to use them effectively
-- **[Workflow Building](docs/03-workflow-building/)** - Create YOUR process from simple to sophisticated
-- **[Patterns](docs/04-patterns/)** - APIs, validation, testing, security, frontend
-- **[Examples](examples/)** - 5 complete working projects with step-by-step AI-assisted builds
-- **[Templates](templates/)** - Learning journal, PR descriptions, workflow designs
-- **[Exercises](exercises/)** - Hands-on practice for GitHub, AI coding, workflow design
-- **[Scenarios](scenarios/)** - Real-world paths for different learning situations
+- **[GitHub Basics](docs/01-github-basics/)** ✅ Complete - Version control, repos, branches, PRs (with analogies)
+- **[AI Tools](docs/02-ai-tools/)** ✅ Complete - Copilot, Claude, ChatGPT - how to use them effectively
+- **[Workflow Building](docs/03-workflow-building/)** ✅ Complete - Create YOUR process from simple to sophisticated
+- **[Patterns](docs/04-patterns/)** 🚧 Growing - API basics, validation, testing, security principles (more coming!)
+- **[Examples](examples/)** 🚧 Growing - Complete working projects with step-by-step AI-assisted builds (1 complete, more coming)
+- **[Templates](templates/)** ✅ 3 templates - Learning journal, PR descriptions, project READMEs
+- **[Exercises](exercises/)** 🚧 Growing - Hands-on practice for GitHub and coding (more exercises being added)
+- **[Scenarios](scenarios/)** ✅ 2 scenarios - Complete beginner path and technical leader learning path
 
 ## 🎓 Learning Philosophy
 
