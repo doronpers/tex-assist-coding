@@ -1,3 +1,7 @@
 fastapi==0.115.5
 uvicorn==0.32.1
 pydantic==2.10.3
+
+# Testing dependencies
+pytest==7.4.3
+httpx==0.26.0  # Required for FastAPI TestClient
