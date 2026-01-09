@@ -61,33 +61,14 @@ Learn to code with AI as your pair programmer. No timeline, no pressure - explor
 
 ## 🎓 Learning Philosophy
 
-Built on **[Dark Horse principles](docs/dark-horse-approach.md)** - honoring your individuality over standardized paths.
+**Your learning path should fit you, not the other way around.**
 
-### Follow YOUR Micro-motives
-- What specifically energizes you about coding?
-- Build projects that align with YOUR interests
-- Your unique combination is your strength
-- [Discover your micro-motives →](docs/dark-horse-approach.md#1-know-your-micro-motives)
-
-### Know YOUR Choices
-- Multiple valid paths, not one "correct" sequence
-- Learn in the order that serves YOU
-- Skip, jump, circle back freely
-- Your learning, your decisions
-
-### Develop YOUR Strategies
+- Learn what energizes you, not what you "should" learn
+- Multiple valid paths - no single "correct" sequence
 - Workflows should fit you, not vice versa
-- Your optimal approach ≠ "best practices"
-- Experiment, keep what works, discard what doesn't
-- [Design your workflow →](docs/03-workflow-building/workflow-builder.md)
-
-### Ignore the Destination
 - Focus on fulfilling work right now, not arbitrary goals
-- Compare only to your past self
-- Redefine success by YOUR metrics
-- Excellence emerges from authentic alignment
 
-**Read the full [Dark Horse Approach →](docs/dark-horse-approach.md)**
+*Based on individualized learning principles - see [docs/dark-horse-approach.md](docs/dark-horse-approach.md) for details.*
 
 ## 🛠️ How to Use This Repository
 

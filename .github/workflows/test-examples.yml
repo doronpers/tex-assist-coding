@@ -1,0 +1,62 @@
+name: Test Examples
+
+on:
+  push:
+    branches: [ main, claude/** ]
+    paths:
+      - 'examples/**'
+      - '.github/workflows/test-examples.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'examples/**'
+
+jobs:
+  test-hello-api:
+    name: Test Hello API Example
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.11', '3.12']
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        working-directory: ./examples/01-hello-api
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        working-directory: ./examples/01-hello-api
+        run: |
+          pytest test_main.py -v --tb=short
+
+      - name: Test API can start
+        working-directory: ./examples/01-hello-api
+        run: |
+          # Start API in background
+          python main.py &
+          API_PID=$!
+
+          # Wait for API to start
+          sleep 3
+
+          # Test root endpoint
+          curl -f http://localhost:8000/ || exit 1
+
+          # Test docs endpoint
+          curl -f http://localhost:8000/docs || exit 1
+
+          # Stop API
+          kill $API_PID || true
+
+          echo "API successfully started and responded to requests"
