@@ -491,14 +491,14 @@ Create `test_main.py` with pytest.
 ## Where to Go From Here
 
 **Next project:**
-→ Extend this API using the API basics section in the [Patterns overview](../../docs/04-patterns/README.md) (no separate todo app in this repo yet)
+→ Extend this API using the API basics section in the [Patterns overview](../../Documentation/04-patterns/README.md) (no separate todo app in this repo yet)
 
 **Learn patterns:**
-→ API basics section in the [Patterns overview](../../docs/04-patterns/README.md) - Common API patterns
+→ API basics section in the [Patterns overview](../../Documentation/04-patterns/README.md) - Common API patterns
 
 **Understand workflows:**
-→ [Start Simple](../../docs/03-workflow-building/start-simple.md) - Basic workflow approach
-→ [AI Tools](../../docs/02-ai-tools/README.md) - Using AI effectively
+→ [Start Simple](../../Documentation/03-workflow-building/start-simple.md) - Basic workflow approach
+→ [AI Tools](../../Documentation/02-ai-tools/README.md) - Using AI effectively
 
 ## Reflect on Your Process
 

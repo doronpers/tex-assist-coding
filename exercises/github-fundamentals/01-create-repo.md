@@ -271,8 +271,8 @@ Learn the collaboration workflow
 ### Want to go deeper first?
 
 **Read:**
-- [Understanding Repositories](../../docs/01-github-basics/understanding-repositories.md)
-- [Branches and Commits](../../docs/01-github-basics/branches-and-commits.md)
+- [Understanding Repositories](../../Documentation/01-github-basics/understanding-repositories.md)
+- [Branches and Commits](../../Documentation/01-github-basics/branches-and-commits.md)
 
 **Try:**
 - Add more files to your repo
@@ -283,7 +283,7 @@ Learn the collaboration workflow
 
 **Projects:**
 - [Hello API](../../examples/01-hello-api/) - Build your first web API
-- [Simple workflow](../../docs/03-workflow-building/start-simple.md) - Three Questions
+- [Simple workflow](../../Documentation/03-workflow-building/start-simple.md) - Three Questions
 
 ## Share Your Success!
 

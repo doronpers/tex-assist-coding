@@ -376,9 +376,9 @@ Fill this out as your personal reference:
 **Now that you know your micro-motives:**
 
 1. **Choose projects**: Pick from [examples](../examples/) that align with your micro-motives
-2. **Design workflow**: Use [Workflow Builder](../docs/03-workflow-building/workflow-builder.md) with your micro-motives in mind
+2. **Design workflow**: Use [Workflow Builder](../Documentation/03-workflow-building/workflow-builder.md) with your micro-motives in mind
 3. **Select learning path**: Use paths in [README](../README.md) as menu, choosing what aligns
-4. **Read Dark Horse approach**: See [Dark Horse Approach](../docs/dark-horse-approach.md) for full framework
+4. **Read Dark Horse approach**: See [Dark Horse Approach](../Documentation/dark-horse-approach.md) for full framework
 
 **Remember:** Your micro-motives are your compass. Trust them over external "shoulds."
 

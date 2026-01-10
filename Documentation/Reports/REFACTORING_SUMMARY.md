@@ -31,7 +31,7 @@ This document summarizes the improvements made to enhance code maintainability, 
 
 ### 2. Pattern Documentation Expansion
 
-#### API Basics (`docs/04-patterns/api-basics/README.md`)
+#### API Basics (`Documentation/04-patterns/api-basics/README.md`)
 **Before**: 1 basic pattern, mostly placeholder text
 **After**: 8 comprehensive patterns with full examples:
 1. Simple GET Endpoint
@@ -52,7 +52,7 @@ Each pattern includes:
 - Related patterns
 - Quick reference table
 
-#### Data Validation (`docs/04-patterns/data-validation/README.md`)
+#### Data Validation (`Documentation/04-patterns/data-validation/README.md`)
 **Before**: Brief placeholder with 4 key principles
 **After**: 8 comprehensive validation patterns:
 1. Manual Validation
@@ -163,8 +163,8 @@ These improvements lay the foundation for:
 ### Modified
 - `examples/01-hello-api/main.py`
 - `examples/01-hello-api/requirements.txt`
-- `docs/04-patterns/api-basics/README.md`
-- `docs/04-patterns/data-validation/README.md`
+- `Documentation/04-patterns/api-basics/README.md`
+- `Documentation/04-patterns/data-validation/README.md`
 - `README.md`
 
 ## Conclusion

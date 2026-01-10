@@ -54,7 +54,7 @@ my-project/
 │   ├── main.py
 │   └── utils.py
 ├── tests/             # Test files
-└── docs/              # Documentation
+└── Documentation/     # Documentation
 ```
 
 ### Key Files to Know

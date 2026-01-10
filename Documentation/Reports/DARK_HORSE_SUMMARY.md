@@ -8,7 +8,7 @@
 
 ### 1. Core Framework Document
 
-**Created:** [`docs/dark-horse-approach.md`](docs/dark-horse-approach.md)
+**Created:** [`Documentation/dark-horse-approach.md`](Documentation/dark-horse-approach.md)
 
 A comprehensive guide explaining:
 - The four Dark Horse principles (Know Your Micro-motives, Know Your Choices, Know Your Strategies, Ignore the Destination)
@@ -73,34 +73,34 @@ A hands-on 30-45 minute exercise helping users:
   - Anti-standardization (don't try to match developer profiles)
 
 #### Workflow Building
-- **docs/03-workflow-building/README.md**:
+- **Documentation/03-workflow-building/README.md**:
   - Added Dark Horse considerations to choosing starting points
   - "Which feels right?" vs "which is correct?"
   - Permission to deviate from suggestions
 
-- **docs/03-workflow-building/workflow-builder.md**:
+- **Documentation/03-workflow-building/workflow-builder.md**:
   - Added micro-motives as first question (A0)
   - Emphasized importance before technical considerations
 
-- **docs/03-workflow-building/workflow-examples.md**:
+- **Documentation/03-workflow-building/workflow-examples.md**:
   - Added Dark Horse note about examples as inspiration, not prescription
   - Emphasized matching workflows to your context and style
 
 #### AI Tools
-- **docs/02-ai-tools/README.md**:
+- **Documentation/02-ai-tools/README.md**:
   - Added Dark Horse approach to AI tools
   - Emphasized personal relationship with AI
   - No "correct" level of AI usage
   - Your timeline vs. standardized timeline
 
-- **docs/02-ai-tools/comparing-tools.md**:
+- **Documentation/02-ai-tools/comparing-tools.md**:
   - Added Dark Horse note at top
   - No "best" tool, only best for you
   - Factors to consider based on personal style
   - Permission to use what works for YOUR brain
 
 #### GitHub Basics
-- **docs/01-github-basics/README.md**:
+- **Documentation/01-github-basics/README.md**:
   - Replaced "No Timeline, No Pressure" with "No Timeline, YOUR Timeline - Dark Horse Approach"
   - Added micro-motive considerations for GitHub learning
   - Enhanced "Where to Start" with choice awareness
@@ -233,7 +233,7 @@ A hands-on 30-45 minute exercise helping users:
 ## Files Created/Modified
 
 ### Created (2 files):
-1. `docs/dark-horse-approach.md` - Comprehensive framework (16,640 chars)
+1. `Documentation/dark-horse-approach.md` - Comprehensive framework (16,640 chars)
 2. `exercises/discover-your-micro-motives.md` - Discovery exercise (8,849 chars)
 
 ### Modified (12 files):
@@ -242,12 +242,12 @@ A hands-on 30-45 minute exercise helping users:
 3. `scenarios/complete-beginner-path.md` - Dark Horse framing, micro-motives, personalized projects
 4. `scenarios/technical-leader-learning.md` - Leader-specific Dark Horse approach
 5. `templates/learning-journal.md` - Energy tracking, micro-motive patterns
-6. `docs/01-github-basics/README.md` - Timeline and starting point flexibility
-7. `docs/02-ai-tools/README.md` - Personal AI relationships, no prescribed usage
-8. `docs/02-ai-tools/comparing-tools.md` - Tools for YOU, not "best" tools
-9. `docs/03-workflow-building/README.md` - Choosing based on feel, not rules
-10. `docs/03-workflow-building/workflow-builder.md` - Micro-motives as first question
-11. `docs/03-workflow-building/workflow-examples.md` - Examples as inspiration
+6. `Documentation/01-github-basics/README.md` - Timeline and starting point flexibility
+7. `Documentation/02-ai-tools/README.md` - Personal AI relationships, no prescribed usage
+8. `Documentation/02-ai-tools/comparing-tools.md` - Tools for YOU, not "best" tools
+9. `Documentation/03-workflow-building/README.md` - Choosing based on feel, not rules
+10. `Documentation/03-workflow-building/workflow-builder.md` - Micro-motives as first question
+11. `Documentation/03-workflow-building/workflow-examples.md` - Examples as inspiration
 12. (Note: Additional GitHub basics documents could be enhanced further)
 
 ## Themes Throughout Changes
@@ -313,7 +313,7 @@ As Todd Rose would ask:
 6. **Dark Horse case studies** - Examples of unconventional but fulfilling paths
 
 ### Content to review for additional Dark Horse messaging:
-- Individual pattern documents in `docs/04-patterns/`
+- Individual pattern documents in `Documentation/04-patterns/`
 - Exercise documents in `exercises/github-fundamentals/`
 - Example projects in `examples/`
 - Contributing guidelines (maybe Dark Horse contributions?)

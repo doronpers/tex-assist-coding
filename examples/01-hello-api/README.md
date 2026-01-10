@@ -274,16 +274,16 @@ Go to http://localhost:8000/docs
 After building this project:
 
 ### If you want more API practice:
-→ Explore the API basics section in the **[Patterns overview](../../docs/04-patterns/README.md)** and extend this project
+→ Explore the API basics section in the **[Patterns overview](../../Documentation/04-patterns/README.md)** and extend this project
 
 ### If you want to add features:
 → Try the extensions above
 
 ### If you want to understand patterns:
-→ **[Patterns overview](../../docs/04-patterns/README.md)** - See the API basics section
+→ **[Patterns overview](../../Documentation/04-patterns/README.md)** - See the API basics section
 
 ### If you want to design a simple workflow:
-→ **[Start simple](../../docs/03-workflow-building/start-simple.md)**
+→ **[Start simple](../../Documentation/03-workflow-building/start-simple.md)**
 
 ### If you want to deploy:
 → Look into Heroku, Railway, or Render (free tiers available)

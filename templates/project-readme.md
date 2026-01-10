@@ -97,7 +97,7 @@ cp .env.example .env
 project-name/
 ├── src/           # Source code
 ├── tests/         # Tests
-├── docs/          # Documentation
+├── Documentation/          # Documentation
 ├── README.md      # This file
 └── requirements.txt  # Dependencies
 ```

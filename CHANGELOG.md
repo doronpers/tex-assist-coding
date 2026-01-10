@@ -71,10 +71,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Contributing guidelines and terminology guide
 
 ### Documentation Structure
-- `/docs/01-github-basics/` - Version control fundamentals
-- `/docs/02-ai-tools/` - AI-assisted coding tool guides
-- `/docs/03-workflow-building/` - Personal workflow development
-- `/docs/04-patterns/` - Common coding patterns and practices
+- `/Documentation/01-github-basics/` - Version control fundamentals
+- `/Documentation/02-ai-tools/` - AI-assisted coding tool guides
+- `/Documentation/03-workflow-building/` - Personal workflow development
+- `/Documentation/04-patterns/` - Common coding patterns and practices
 - `/examples/` - Complete working projects
 - `/exercises/` - Hands-on practice exercises
 - `/scenarios/` - Real-world learning paths

@@ -279,11 +279,11 @@ The repository now provides a complete, honest, and highly usable learning exper
 #### 2. Pattern Documentation Structure (5 directories)
 
 **Created:**
-- `docs/04-patterns/api-basics/` - Fundamental endpoint patterns
-- `docs/04-patterns/data-validation/` - Validation principles
-- `docs/04-patterns/testing/` - Testing essentials
-- `docs/04-patterns/security/` - Security fundamentals
-- `docs/04-patterns/frontend/` - Frontend placeholder
+- `Documentation/04-patterns/api-basics/` - Fundamental endpoint patterns
+- `Documentation/04-patterns/data-validation/` - Validation principles
+- `Documentation/04-patterns/testing/` - Testing essentials
+- `Documentation/04-patterns/security/` - Security fundamentals
+- `Documentation/04-patterns/frontend/` - Frontend placeholder
 
 **Impact:** Provides foundation for pattern learning while being honest about what's complete vs. coming.
 
@@ -304,8 +304,8 @@ The repository now provides a complete, honest, and highly usable learning exper
 **Files Modified:**
 - `README.md` - Added complete beginner path, honest status indicators
 - `CHANGELOG.md` - Comprehensive update log
-- `docs/03-workflow-building/README.md` - Updated links, removed "coming soon"
-- `docs/03-workflow-building/start-simple.md` - Fixed references
+- `Documentation/03-workflow-building/README.md` - Updated links, removed "coming soon"
+- `Documentation/03-workflow-building/start-simple.md` - Fixed references
 
 **Impact:** Repository now honestly represents its state and is easier to navigate.
 
@@ -417,7 +417,7 @@ The repository now provides a complete, honest, and highly usable learning exper
 ### Low Priority
 
 7. **Advanced Content**
-   - docs/05-advanced/ section
+   - Documentation/05-advanced/ section
    - Complex patterns
    - Production deployment guides
 
