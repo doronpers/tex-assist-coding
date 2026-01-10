@@ -15,8 +15,8 @@
 #   CLEANUP_BACKUPS=true ./scripts/standardize_repo.sh
 #
 # Environment Variables:
-#   STANDARDS_SOURCE_DIR  - Path to governance standards directory
-#                          (default: /Volumes/Treehorn/Gits/sonotheia-enhanced/documentation/Governance)
+#   STANDARDS_SOURCE_DIR  - Path to governance standards directory (optional)
+#                          If not set, governance file deployment will be skipped
 #   RUN_BLACK             - Auto-run black formatter after setup (default: false)
 #   CLEANUP_BACKUPS       - Remove backup files older than 30 days (default: false)
 #
@@ -35,7 +35,9 @@ readonly FLAKE8_VERSION="7.1.2"
 readonly PRE_COMMIT_HOOKS_VERSION="v4.6.0"
 
 # Configuration
-readonly SOURCE_DIR="${STANDARDS_SOURCE_DIR:-/Volumes/Treehorn/Gits/sonotheia-enhanced/documentation/Governance}"
+# SOURCE_DIR: Path to governance standards directory (optional, can be overridden via env var)
+# If not set, governance file deployment will be skipped
+readonly SOURCE_DIR="${STANDARDS_SOURCE_DIR:-}"
 readonly RUN_BLACK="${RUN_BLACK:-false}"
 readonly CLEANUP_BACKUPS="${CLEANUP_BACKUPS:-false}"
 

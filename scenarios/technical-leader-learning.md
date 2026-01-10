@@ -4,7 +4,7 @@ You're managing a development team but want to understand code yourself. Here's 
 
 ## 🐴 Dark Horse for Leaders
 
-**Leadership + coding is YOUR unique path.** Built on [Dark Horse principles](../../Documentation/dark-horse-approach.md):
+**Leadership + coding is YOUR unique path.** Built on [Dark Horse principles](../../documentation/dark-horse-approach.md):
 
 **Your micro-motives as a leader might be:**
 - Understanding to make better decisions (strategy-driven)
@@ -66,15 +66,15 @@ You'll interact with code repositories daily as a leader. Understanding Git/GitH
 - Tracking project progress
 
 **Focus On:**
-1. **[Understanding Repositories](../../Documentation/01-github-basics/understanding-repositories.md)**
+1. **[Understanding Repositories](../../documentation/01-github-basics/understanding-repositories.md)**
    - What repos are and why they matter
    - How code is organized
 
-2. **[Branches and Commits](../../Documentation/01-github-basics/branches-and-commits.md)**
+2. **[Branches and Commits](../../documentation/01-github-basics/branches-and-commits.md)**
    - How developers work in parallel
    - Understanding commit history
 
-3. **[Pull Requests Explained](../../Documentation/01-github-basics/pull-requests-explained.md)**
+3. **[Pull Requests Explained](../../documentation/01-github-basics/pull-requests-explained.md)**
    - The code review process
    - How to give meaningful feedback
 
@@ -156,7 +156,7 @@ You built a working API and can explain what each part does.
 **Why:** This is your primary technical leadership activity.
 
 **Focus On:**
-1. **[Building Trust with AI](../../Documentation/02-ai-tools/building-trust.md)**
+1. **[Building Trust with AI](../../documentation/02-ai-tools/building-trust.md)**
    - When to trust AI suggestions
    - Red flags to watch for
    - Security concerns
@@ -511,7 +511,7 @@ Worth it? Absolutely.
 ## Your Next Steps
 
 **This Week:**
-1. Read [Understanding Repositories](../../Documentation/01-github-basics/understanding-repositories.md)
+1. Read [Understanding Repositories](../../documentation/01-github-basics/understanding-repositories.md)
 2. Create a GitHub account if you don't have one
 3. Browse your team's main repository
 4. Ask AI to explain one file

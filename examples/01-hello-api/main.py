@@ -13,9 +13,10 @@ This simple API demonstrates:
 import logging
 import os
 from contextlib import asynccontextmanager
-from typing import AsyncIterator, Dict
+from typing import Any, AsyncIterator, Dict
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 
 
@@ -26,8 +27,17 @@ class Config:
     MIN_ITEM_ID: int = 1
     MAX_ITEM_ID: int = 1000
     HOST: str = os.getenv("API_HOST", "0.0.0.0")
-    PORT: int = int(os.getenv("API_PORT", "8000"))
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
+
+    @classmethod
+    def get_port(cls) -> int:
+        """Get port from environment with error handling."""
+        try:
+            return int(os.getenv("API_PORT", "8000"))
+        except ValueError:
+            # Logger not yet initialized, use print as fallback
+            print("Warning: Invalid API_PORT value, using default 8000")
+            return 8000
 
 
 # Configure logging
@@ -135,13 +145,37 @@ def read_item(item_id: int) -> Dict:
     }
 
 
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(
+    request: Request, exc: RequestValidationError
+) -> JSONResponse:
+    """
+    Handle request validation errors.
+
+    FastAPI's built-in validation errors should be handled separately
+    to provide proper 422 status codes.
+    """
+    logger.warning(f"Validation error: {exc.errors()}")
+    return JSONResponse(
+        status_code=422,
+        content={"detail": exc.errors()},
+    )
+
+
 @app.exception_handler(Exception)
-async def global_exception_handler(request, exc):
+async def global_exception_handler(
+    request: Request, exc: Exception
+) -> JSONResponse:
     """
     Global exception handler for unexpected errors.
 
     This catches any unhandled exceptions and logs them.
+    Excludes HTTPException and RequestValidationError which are handled separately.
     """
+    # Don't catch HTTPException - let FastAPI handle it
+    if isinstance(exc, HTTPException):
+        raise exc
+
     logger.error(f"Unhandled exception: {exc}", exc_info=True)
     return JSONResponse(
         status_code=500,
@@ -152,13 +186,14 @@ async def global_exception_handler(request, exc):
 if __name__ == "__main__":
     import uvicorn
 
-    logger.info(f"Starting server on {Config.HOST}:{Config.PORT}")
-    logger.info(f"Access at: http://localhost:{Config.PORT}")
-    logger.info(f"Interactive docs at: http://localhost:{Config.PORT}/docs")
+    port = Config.get_port()
+    logger.info(f"Starting server on {Config.HOST}:{port}")
+    logger.info(f"Access at: http://localhost:{port}")
+    logger.info(f"Interactive docs at: http://localhost:{port}/docs")
 
     uvicorn.run(
         app,
         host=Config.HOST,
-        port=Config.PORT,
+        port=port,
         log_level=Config.LOG_LEVEL.lower(),
     )

@@ -342,9 +342,9 @@ This file lists all dependencies so others can install them.
 
 If you need to create `requirements.txt`, use the pinned versions from this repo:
 ```
-fastapi==0.115.5
-uvicorn==0.32.1
-pydantic==2.10.3
+fastapi==0.124.4
+uvicorn==0.34.0
+pydantic==2.9.0
 ```
 These are the exact versions in `examples/01-hello-api/requirements.txt`.
 
@@ -491,14 +491,14 @@ Create `test_main.py` with pytest.
 ## Where to Go From Here
 
 **Next project:**
-→ Extend this API using the API basics section in the [Patterns overview](../../Documentation/04-patterns/README.md) (no separate todo app in this repo yet)
+→ Extend this API using the API basics section in the [Patterns overview](../../documentation/04-patterns/README.md) (no separate todo app in this repo yet)
 
 **Learn patterns:**
-→ API basics section in the [Patterns overview](../../Documentation/04-patterns/README.md) - Common API patterns
+→ API basics section in the [Patterns overview](../../documentation/04-patterns/README.md) - Common API patterns
 
 **Understand workflows:**
-→ [Start Simple](../../Documentation/03-workflow-building/start-simple.md) - Basic workflow approach
-→ [AI Tools](../../Documentation/02-ai-tools/README.md) - Using AI effectively
+→ [Start Simple](../../documentation/03-workflow-building/start-simple.md) - Basic workflow approach
+→ [AI Tools](../../documentation/02-ai-tools/README.md) - Using AI effectively
 
 ## Reflect on Your Process
 

@@ -17,7 +17,7 @@ Found something confusing, incorrect, or broken?
 
 **Good issue titles:**
 
-- "Typo in Documentation/01-github-basics/branches-and-commits.md"
+- "Typo in documentation/01-github-basics/branches-and-commits.md"
 - "Example in Hello API doesn't work - missing import"
 - "Analogy in 'Understanding Repositories' is confusing"
 
@@ -275,7 +275,7 @@ Any other relevant information
 
 ### Medium Priority
 
-- [ ] Advanced topics (Documentation/05-advanced)
+- [ ] Advanced topics (documentation/05-advanced)
 - [ ] More templates
 - [ ] Troubleshooting guides
 - [ ] FAQ sections

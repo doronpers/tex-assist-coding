@@ -4,7 +4,7 @@ You've never written code before. You're curious about AI-assisted development b
 
 ## 🐴 Dark Horse Note
 
-**This path is a SUGGESTION, not a requirement.** Built on [Dark Horse principles](../Documentation/dark-horse-approach.md):
+**This path is a SUGGESTION, not a requirement.** Built on [Dark Horse principles](../documentation/dark-horse-approach.md):
 
 - **Use as menu, not prescription** - Pick what energizes you, skip what doesn't
 - **Discover your micro-motives** - What SPECIFICALLY energizes you about coding? [Find out →](../exercises/discover-your-micro-motives.md)
@@ -39,8 +39,8 @@ You've never written code before. You're curious about AI-assisted development b
 3. Try ChatGPT or Claude (free tier is fine)
 
 **Read these:**
-- [First 10 Minutes on GitHub](../Documentation/01-github-basics/first-10-minutes.md)
-- [Understanding Repositories](../Documentation/01-github-basics/understanding-repositories.md)
+- [First 10 Minutes on GitHub](../documentation/01-github-basics/first-10-minutes.md)
+- [Understanding Repositories](../documentation/01-github-basics/understanding-repositories.md)
 
 **Success:** You have accounts and tools installed
 
@@ -66,8 +66,8 @@ Ask ChatGPT: "Explain what a git repository is like I'm 5 years old"
 - [Create Your First Branch](../exercises/github-fundamentals/02-create-branch.md)
 
 **Read these:**
-- [Branches and Commits](../Documentation/01-github-basics/branches-and-commits.md)
-- [Common Mistakes](../Documentation/01-github-basics/common-mistakes.md)
+- [Branches and Commits](../documentation/01-github-basics/branches-and-commits.md)
+- [Common Mistakes](../documentation/01-github-basics/common-mistakes.md)
 
 **✨ Dark Horse Addition: Discover your micro-motives**
 - Try [Micro-motives Discovery Exercise](../exercises/discover-your-micro-motives.md)
@@ -112,8 +112,8 @@ Assume I'm a complete beginner."
 ```
 
 **Read:**
-- [AI Limitations](../Documentation/02-ai-tools/ai-limitations.md) - Know when to trust AI
-- [Building Trust](../Documentation/02-ai-tools/building-trust.md) - Verify AI suggestions
+- [AI Limitations](../documentation/02-ai-tools/ai-limitations.md) - Know when to trust AI
+- [Building Trust](../documentation/02-ai-tools/building-trust.md) - Verify AI suggestions
 
 **Success:** You can explain what your code does (even if roughly)
 
@@ -129,8 +129,8 @@ Assume I'm a complete beginner."
 3. Claude Free - Get explanations
 
 **Read:**
-- [Comparing Tools](../Documentation/02-ai-tools/comparing-tools.md)
-- [GitHub Copilot](../Documentation/02-ai-tools/github-copilot.md)
+- [Comparing Tools](../documentation/02-ai-tools/comparing-tools.md)
+- [GitHub Copilot](../documentation/02-ai-tools/github-copilot.md)
 
 **Choose one** to focus on (you can always add more later)
 
@@ -182,8 +182,8 @@ Instead of "good first projects," ask: **What problem do I actually want to solv
 ```
 
 **Read:**
-- [Start Simple](../Documentation/03-workflow-building/start-simple.md)
-- [Workflow Examples](../Documentation/03-workflow-building/workflow-examples.md)
+- [Start Simple](../documentation/03-workflow-building/start-simple.md)
+- [Workflow Examples](../documentation/03-workflow-building/workflow-examples.md)
 
 **Success:** You have a working project YOU built (with AI help)
 
@@ -196,9 +196,9 @@ Instead of "good first projects," ask: **What problem do I actually want to solv
 **Now that you can build things, learn to build them well:**
 
 **Read patterns:**
-- [API Basics](../Documentation/04-patterns/api-basics/)
-- [Testing](../Documentation/04-patterns/testing/)
-- [Security](../Documentation/04-patterns/security/)
+- [API Basics](../documentation/04-patterns/api-basics/)
+- [Testing](../documentation/04-patterns/testing/)
+- [Security](../documentation/04-patterns/security/)
 
 **Improve your Month 2 project:**
 - Add tests
@@ -427,10 +427,10 @@ Use this to stay on track:
 ## Resources at Your Fingertips
 
 **When you need:**
-- Git help: [GitHub Basics](../Documentation/01-github-basics/)
-- AI tool help: [AI Tools](../Documentation/02-ai-tools/)
-- Workflow help: [Workflow Building](../Documentation/03-workflow-building/)
-- Code patterns: [Patterns](../Documentation/04-patterns/)
+- Git help: [GitHub Basics](../documentation/01-github-basics/)
+- AI tool help: [AI Tools](../documentation/02-ai-tools/)
+- Workflow help: [Workflow Building](../documentation/03-workflow-building/)
+- Code patterns: [Patterns](../documentation/04-patterns/)
 - Working examples: [Examples](../examples/)
 - Hands-on practice: [Exercises](../exercises/)
 

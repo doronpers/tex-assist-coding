@@ -264,7 +264,7 @@ This happens when the same file was changed in both branches. We'll cover this i
 → [Exercise: Resolve a Merge Conflict](03-resolve-conflict.md) *(Coming soon)*
 
 **Understand branches deeper:**
-→ [Branches and Commits](../../Documentation/01-github-basics/branches-and-commits.md)
+→ [Branches and Commits](../../documentation/01-github-basics/branches-and-commits.md)
 
 **Ready to code:**
 → [Hello API Example](../../examples/01-hello-api/)
