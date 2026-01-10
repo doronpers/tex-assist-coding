@@ -18,9 +18,11 @@ from typing import AsyncIterator, Dict
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 
+
 # Configuration
 class Config:
     """Application configuration."""
+
     MIN_ITEM_ID: int = 1
     MAX_ITEM_ID: int = 1000
     HOST: str = os.getenv("API_HOST", "0.0.0.0")

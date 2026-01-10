@@ -103,3 +103,6 @@ Built to help anyone learn AI-assisted coding. No gatekeeping, no prerequisites,
 ---
 
 **Ready to start? Pick a path above and dive in!** 🚀
+
+## Agent Instructions
+This repository follows [Agent Behavioral Standards](Documentation/Governance/AGENT_BEHAVIORAL_STANDARDS.md). All AI agents MUST read these before performing any tasks.
