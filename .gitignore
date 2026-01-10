@@ -222,3 +222,7 @@ build/
 *.pyc
 .DS_Store
 .venv/
+*.bak.*
+.env.local
+.env.*.local
+coverage/
