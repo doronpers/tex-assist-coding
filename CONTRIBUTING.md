@@ -16,6 +16,7 @@ Found something confusing, incorrect, or broken?
    - Suggestions for improvement (if you have any)
 
 **Good issue titles:**
+
 - "Typo in Documentation/01-github-basics/branches-and-commits.md"
 - "Example in Hello API doesn't work - missing import"
 - "Analogy in 'Understanding Repositories' is confusing"
@@ -37,22 +38,26 @@ Have an idea to make something better?
 ### 📝 Fix Documentation
 
 **Small fixes (typos, clarity, formatting):**
+
 - Just open a PR directly!
 - No need for an issue first
 
 **Larger improvements:**
+
 - Open an issue to discuss first
 - Then submit a PR
 
 ### 🎨 Add Examples or Exercises
 
 **We love new content!** Especially:
+
 - Working code examples
 - Hands-on exercises
 - Real-world scenarios
 - Pattern demonstrations
 
 **Before creating:**
+
 1. Check if something similar exists
 2. Open an issue to discuss your idea
 3. Follow our content guidelines (below)
@@ -60,6 +65,7 @@ Have an idea to make something better?
 ### 💻 Add Code
 
 **Code contributions should:**
+
 - Work out of the box
 - Include clear comments
 - Follow the repository's style
@@ -71,6 +77,7 @@ Have an idea to make something better?
 ### Tone and Style
 
 **DO:**
+
 - ✅ Use plain, conversational language
 - ✅ Explain jargon immediately
 - ✅ Use real-world analogies
@@ -79,6 +86,7 @@ Have an idea to make something better?
 - ✅ Provide multiple learning paths
 
 **DON'T:**
+
 - ❌ Use phrases like "obviously," "simply," "just"
 - ❌ Assume prior knowledge
 - ❌ Make learners feel behind
@@ -100,6 +108,7 @@ Every documentation file should have:
 ### Code Examples
 
 **All code examples must:**
+
 - Be complete and runnable
 - Include comments explaining key parts
 - Show the output or result
@@ -108,6 +117,7 @@ Every documentation file should have:
 - Follow modern best practices
 
 **Example of good code:**
+
 ```python
 def calculate_total_price(items: list[dict]) -> float:
     """
@@ -141,6 +151,7 @@ print(f"Total: ${total}")  # Output: Total: $14.49
 ### Example Projects
 
 **Should include:**
+
 - `README.md` - What it is, what you'll learn
 - `HOW_TO_BUILD.md` - Step-by-step guide with AI prompts
 - Complete working code
@@ -151,6 +162,7 @@ print(f"Total: ${total}")  # Output: Total: $14.49
 ### Exercises
 
 **Should include:**
+
 - Clear goal and time estimate
 - Difficulty level
 - Prerequisites
@@ -177,6 +189,7 @@ git checkout -b your-descriptive-branch-name
 ```
 
 **Good branch names:**
+
 - `fix-typo-in-readme`
 - `add-database-pattern-example`
 - `improve-git-basics-explanation`
@@ -196,6 +209,7 @@ git commit -m "Descriptive commit message"
 ```
 
 **Good commit messages:**
+
 - "Fix typo in Understanding Repositories"
 - "Add example for email validation pattern"
 - "Improve explanation of decorators with analogy"
@@ -208,6 +222,7 @@ git push origin your-branch-name
 ```
 
 Then on GitHub:
+
 1. Go to the original repository
 2. Click "Pull Request"
 3. Fill in the PR description (see template below)
@@ -233,7 +248,7 @@ Brief description of your changes
 - [ ] My changes follow the content style
 - [ ] I've tested any code I added
 - [ ] I've checked for typos and grammar
-- [ ] I've added myself to CONTRIBUTORS.md (if this is my first contribution)
+- [ ] I've added myself to CONTRIBUTING.md (if this is my first contribution)
 
 ## Additional Context
 
@@ -282,7 +297,8 @@ Any other relevant information
 ## Recognition
 
 All contributors will be:
-- Added to CONTRIBUTORS.md
+
+- Added to the Contributors section below
 - Credited in their PRs/issues
 - Appreciated publicly!
 
@@ -307,6 +323,7 @@ All contributors will be:
 ### Reporting
 
 If you experience or witness unacceptable behavior:
+
 1. Contact repository maintainers
 2. All reports will be taken seriously
 3. We'll respond promptly and fairly
@@ -315,10 +332,29 @@ If you experience or witness unacceptable behavior:
 
 By contributing, you agree that your contributions will be licensed under the MIT License.
 
-## Thank You!
+## Thank You
 
 Every contribution, no matter how small, makes this resource better for learners worldwide. Thank you for taking the time to help! 🙏
 
 ---
 
 **Ready to contribute?** Pick an issue labeled "good first issue" to get started!
+
+---
+
+## Contributors
+
+Thank you to everyone who has contributed to making this learning resource better! 🙏
+
+### Project Creator
+
+**Doron Pers** - [@doronpers](https://github.com/doronpers)
+
+- Created and maintains the AI-Assisted Coding Guide
+- Vision: Make AI-assisted development accessible to complete beginners
+
+### Contributors List
+
+<!-- Contributors will be added here as they contribute -->
+
+*Your name could be here! Make your first contribution today.*
