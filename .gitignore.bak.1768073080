@@ -219,6 +219,3 @@ yarn.lock
 .next/
 out/
 build/
-*.pyc
-.DS_Store
-.venv/
