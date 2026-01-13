@@ -7,6 +7,8 @@
 
 Learn to code with AI as your pair programmer. No timeline, no pressure - explore at your own pace.
 
+> ⚠️ **Active Development**: This guide is in **active development**. Content is being added, refined, and expanded continuously. New examples, exercises, and learning paths are regularly added.
+
 ## 🎯 What This Is
 
 - A **guidebook** for learning AI-assisted development
@@ -50,14 +52,14 @@ Learn to code with AI as your pair programmer. No timeline, no pressure - explor
 
 ## 📚 What's Inside
 
-- **[GitHub Basics](documentation/01-github-basics/)** ✅ Complete - Version control, repos, branches, PRs (with analogies)
-- **[AI Tools](documentation/02-ai-tools/)** ✅ Complete - Copilot, Claude, ChatGPT - how to use them effectively
-- **[Workflow Building](documentation/03-workflow-building/)** ✅ Complete - Create YOUR process from simple to sophisticated
-- **[Patterns](documentation/04-patterns/)** 🚧 Growing - API basics, validation, testing, security principles (more coming!)
-- **[Examples](examples/)** 🚧 Growing - Complete working projects with step-by-step AI-assisted builds (1 complete, more coming)
-- **[Templates](templates/)** ✅ 3 templates - Learning journal, PR descriptions, project READMEs
-- **[Exercises](exercises/)** 🚧 Growing - Hands-on practice for GitHub and coding (more exercises being added)
-- **[Scenarios](scenarios/)** ✅ 2 scenarios - Complete beginner path and technical leader learning path
+- **[GitHub Basics](documentation/01-github-basics/)** Available - Version control, repos, branches, PRs (with analogies)
+- **[AI Tools](documentation/02-ai-tools/)** Available - Copilot, Claude, ChatGPT - how to use them effectively
+- **[Workflow Building](documentation/03-workflow-building/)** Available - Create YOUR process from simple to sophisticated
+- **[Patterns](documentation/04-patterns/)** In Development - API basics, validation, testing, security principles (more coming!)
+- **[Examples](examples/)** In Development - Complete working projects with step-by-step AI-assisted builds (more coming!)
+- **[Templates](templates/)** Available - Learning journal, PR descriptions, project READMEs
+- **[Exercises](exercises/)** In Development - Hands-on practice for GitHub and coding (more exercises being added)
+- **[Scenarios](scenarios/)** Available - Complete beginner path and technical leader learning path
 
 ## 🎓 Learning Philosophy
 
