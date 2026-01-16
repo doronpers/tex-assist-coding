@@ -187,7 +187,7 @@ def register_user(email, password):
 
 **Single-agent approach:**
 ```
-You: "Create a user registration function in Python with 
+You: "Create a user registration function in Python with
 email validation and password hashing"
 
 AI: [generates complete code]
@@ -251,14 +251,14 @@ def save_results():
 def register_user(email: str, password: str) -> dict:
     """
     Register a new user with email and password.
-    
+
     Args:
         email: User's email address
         password: User's chosen password (will be hashed)
-        
+
     Returns:
         Dict with 'success' boolean and 'user_id' or 'error'
-        
+
     Raises:
         ValueError: If email or password invalid
     """
@@ -402,7 +402,7 @@ AI: "You should also test:
 
 **AI Review:**
 ```
-You: "Review this code for bugs, security issues, 
+You: "Review this code for bugs, security issues,
 and improvements:
 [paste code]"
 

@@ -141,13 +141,13 @@ from pydantic import BaseModel, validator
 class UserInput(BaseModel):
     email: str
     age: int
-    
+
     @validator('email')
     def validate_email(cls, v):
         if '@' not in v:
             raise ValueError('Invalid email')
         return v
-    
+
     @validator('age')
     def validate_age(cls, v):
         if v < 0 or v > 150:
@@ -221,7 +221,7 @@ Add patterns as needed for your projects.
 
 **Example:**
 ```
-"What's the standard pattern for handling user authentication 
+"What's the standard pattern for handling user authentication
 in FastAPI with JWT tokens?"
 ```
 

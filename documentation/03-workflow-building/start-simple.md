@@ -23,7 +23,7 @@ That's it! Everything else is optional.
 
 **Without these questions:**
 ```
-"I need to... do something with users... and maybe emails... 
+"I need to... do something with users... and maybe emails...
 or was it passwords? Let me just start coding..."
 ```
 
@@ -69,7 +69,7 @@ Use a comment, text file, or paper:
 #    A function that registers a new user with email and password
 
 # 2. HOW will I know it works?
-#    register_user("alice@example.com", "securepass123") 
+#    register_user("alice@example.com", "securepass123")
 #    should return {"success": True, "user_id": 1}
 
 # 3. WHAT could go wrong?
@@ -85,7 +85,7 @@ def register_user(email, password):
     # Check if email already exists
     if user_exists(email):
         return {"success": False, "error": "Email already registered"}
-    
+
     # Create user
     user_id = create_user(email, password)
     return {"success": True, "user_id": user_id}
@@ -130,7 +130,7 @@ def calculate_shipping(weight, distance):
     # Handle edge case from Question 3
     if weight <= 0:
         raise ValueError("Weight must be positive")
-    
+
     # Simple formula for now
     cost_per_kg = 1.0
     cost_per_km = 0.1
@@ -165,7 +165,7 @@ def filter_active_users(users):
     # Handle edge case from Question 3
     if not users:
         return []
-    
+
     cutoff_date = datetime.now() - timedelta(days=30)
     return [user for user in users if user['last_login'] > cutoff_date]
 
@@ -203,11 +203,11 @@ def get_user(user_id: int):
     """Get user by ID."""
     # In real app, query database
     user = database.get_user(user_id)
-    
+
     # Handle edge case from Question 3
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
-    
+
     return user
 
 # Manual test for Question 2

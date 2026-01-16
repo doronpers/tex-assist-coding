@@ -42,7 +42,7 @@ Create a function
 ```
 Context: I'm building a FastAPI application for a todo list.
 Task: Create a function to validate todo items before saving to database.
-Constraints: 
+Constraints:
 - Title must be 1-200 characters
 - Description is optional
 - Due date must be in the future
@@ -96,7 +96,7 @@ Create test cases for my add() function.
 Example format I want:
 def test_add_positive_numbers():
     assert add(2, 3) == 5
-    
+
 def test_add_negative_numbers():
     assert add(-1, -1) == -2
 ```
@@ -179,7 +179,7 @@ I'm a beginner Python developer.
 
 Explain list comprehensions in this order:
 1. Simple analogy
-2. Basic code example  
+2. Basic code example
 3. When to use it
 4. Common mistakes
 
@@ -501,7 +501,7 @@ Actual: [what happens]
 # My Code Review Prompt
 Review this Python code for:
 1. Bugs
-2. Security issues  
+2. Security issues
 3. Pythonic style
 [code]
 ```

@@ -73,9 +73,9 @@ Let's add a file through GitHub's web interface:
 3. **Add content:**
    ```
    Hello, GitHub!
-   
+
    This is my first file in my first repository.
-   
+
    Today's date: [write today's date]
    What I'm learning: GitHub basics
    ```
@@ -100,7 +100,7 @@ Now let's modify the file:
 3. **Add more content:**
    ```
    Update: I just learned how to edit files on GitHub!
-   
+
    Things I can do now:
    - Create repositories
    - Add files
@@ -152,16 +152,16 @@ Let's see what you've done:
 Take a moment to think:
 
 1. **What surprised you about GitHub?**
-   
-   
+
+
 2. **What was easier than you expected?**
-   
-   
+
+
 3. **What was harder than you expected?**
-   
-   
+
+
 4. **What would you like to learn next?**
-   
+
 
 ## Bonus Challenges (Optional)
 
@@ -179,12 +179,12 @@ Create these files in your repo:
 3. Add more content using Markdown:
    ```markdown
    # My Learning Repository
-   
+
    ## What I'm Learning
    - GitHub basics
    - Making commits
    - Version control
-   
+
    ## Projects I Want to Build
    1. First project idea
    2. Second project idea
@@ -330,23 +330,23 @@ Write in your learning journal:
 **Time Spent:** ___ minutes
 
 **What Went Well:**
-- 
-- 
+-
+-
 
 **What Was Challenging:**
-- 
-- 
+-
+-
 
 **Key Learnings:**
-- 
-- 
+-
+-
 
 **Questions I Still Have:**
-- 
-- 
+-
+-
 
 **Next Goal:**
-- 
+-
 
 ## Celebrate!
 

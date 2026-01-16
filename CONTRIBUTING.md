@@ -122,19 +122,19 @@ Every documentation file should have:
 def calculate_total_price(items: list[dict]) -> float:
     """
     Calculate total price for shopping cart.
-    
+
     Args:
         items: List of item dictionaries with 'price' key
-        
+
     Returns:
         Total price as float
-        
+
     Raises:
         ValueError: If items list is empty
     """
     if not items:
         raise ValueError("Cannot calculate total for empty cart")
-    
+
     # Sum up all item prices
     total = sum(item['price'] for item in items)
     return round(total, 2)  # Round to 2 decimal places

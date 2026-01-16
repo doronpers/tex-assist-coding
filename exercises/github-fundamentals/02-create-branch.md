@@ -171,11 +171,11 @@ Only `main` should remain.
 
 ## Success Criteria
 
-✅ You created a branch  
-✅ You made a commit on the branch  
-✅ You switched between branches  
-✅ You merged the branch into main  
-✅ You pushed to GitHub  
+✅ You created a branch
+✅ You made a commit on the branch
+✅ You switched between branches
+✅ You merged the branch into main
+✅ You pushed to GitHub
 ✅ You can see your changes on GitHub
 
 **If you did all of these, you've mastered basic branching!** 🎉

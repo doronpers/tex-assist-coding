@@ -1,0 +1,1 @@
+../../scenarios/complete-beginner-path.md

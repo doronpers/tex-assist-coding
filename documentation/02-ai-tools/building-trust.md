@@ -56,7 +56,7 @@ def calculate_discount(price, user_type):
         return price * 0.9
     return price
 
-# 🔍 Review: 
+# 🔍 Review:
 # - Is discount correct? (10% seems reasonable)
 # - What about other user types?
 # - Should premium be hardcoded?
@@ -271,13 +271,13 @@ def calculate_total(prices: List[float]) -> float:
 def process_payment(amount: float) -> bool:
     """
     Process a payment transaction.
-    
+
     Args:
         amount: Payment amount in USD
-        
+
     Returns:
         True if successful, False otherwise
-        
+
     Raises:
         ValueError: If amount is negative
     """

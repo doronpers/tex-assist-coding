@@ -25,7 +25,7 @@ Comprehensive testing patterns are being developed. For now:
 def test_addition():
     result = add(2, 3)
     assert result == 5
-    
+
 # Run it
 pytest test_my_code.py
 ```

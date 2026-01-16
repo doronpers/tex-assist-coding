@@ -169,8 +169,8 @@ You built a working API and can explain what each part does.
 **Practical Exercise:**
 ```
 Ask Claude:
-"Review this code for potential issues, security concerns, 
-and maintainability. Explain each issue in terms a 
+"Review this code for potential issues, security concerns,
+and maintainability. Explain each issue in terms a
 non-developer can understand.
 
 [Paste code from your team's recent PR]"
@@ -238,16 +238,16 @@ Ask AI:
 **Scenario 1: New Feature Discussion**
 ```
 Before: "Can we add user authentication?"
-After: "Can we add user authentication? Should we use JWT 
-tokens or session-based? What's the security model? 
+After: "Can we add user authentication? Should we use JWT
+tokens or session-based? What's the security model?
 How will we handle password resets?"
 ```
 
 **Scenario 2: Bug Discussion**
 ```
 Before: "The app is slow."
-After: "The app is slow. Is it the API response time or 
-frontend rendering? Can we add logging to identify the 
+After: "The app is slow. Is it the API response time or
+frontend rendering? Can we add logging to identify the
 bottleneck? Should we look at database query performance?"
 ```
 
@@ -358,7 +358,7 @@ Don't try to be "as technical as your developers" - that's standardization think
 "How's the API development going?"
 
 **After:**
-"How's the API development going? Are we handling rate limiting? 
+"How's the API development going? Are we handling rate limiting?
 What's our error response structure? How are we versioning the API?"
 
 ### With Stakeholders
@@ -367,8 +367,8 @@ What's our error response structure? How are we versioning the API?"
 "The team says it's technically complex."
 
 **After:**
-"This requires refactoring our authentication system, which touches 
-multiple services. The team estimates 2 weeks to do it safely with 
+"This requires refactoring our authentication system, which touches
+multiple services. The team estimates 2 weeks to do it safely with
 proper testing. Rushing it risks security issues."
 
 ### With Leadership
@@ -377,8 +377,8 @@ proper testing. Rushing it risks security issues."
 "We need more time."
 
 **After:**
-"We need more time because we discovered the current database schema 
-doesn't support the new feature. We can either: 
+"We need more time because we discovered the current database schema
+doesn't support the new feature. We can either:
 1) Extend timeline by 2 weeks for proper migration
 2) Add technical debt with a workaround (risks issues later)
 3) Reduce scope to what current schema supports

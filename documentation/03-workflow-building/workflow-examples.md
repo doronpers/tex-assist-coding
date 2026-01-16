@@ -230,12 +230,12 @@ Using GitHub Copilot:
 # Database models
 class URLMapping(Base):
     # Copilot suggests fields
-    
+
 # API endpoints
 @app.post("/shorten")
 async def shorten_url(...):
     # Copilot implements logic
-    
+
 @app.get("/{short_code}")
 async def redirect(...):
     # Copilot implements redirect

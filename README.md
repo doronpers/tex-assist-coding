@@ -61,6 +61,14 @@ Learn to code with AI as your pair programmer. No timeline, no pressure - explor
 - **[Exercises](exercises/)** In Development - Hands-on practice for GitHub and coding (more exercises being added)
 - **[Scenarios](scenarios/)** Available - Complete beginner path and technical leader learning path
 
+## 🔄 Reusable Resources
+
+**New!** All learning resources are now organized in the [`reusable/`](reusable/) directory for easy access and repurposing across multiple repositories.
+
+- **[Reusable Directory](reusable/README.md)** - Organized, portable learning resources
+- **[Portability Guide](reusable/PORTABILITY.md)** - How to use these resources in other repos
+- Quick access to philosophy, paths, exercises, templates, and guides
+
 ## 🎓 Learning Philosophy
 
 **Your learning path should fit you, not the other way around.**

@@ -54,7 +54,7 @@ AI: The issue is... Here's how to fix it...
 
 **Design Discussions**
 ```
-You: I'm building a user authentication system. 
+You: I'm building a user authentication system.
 What architecture should I use?
 
 AI: Let's think through the options...
@@ -76,7 +76,7 @@ AI: Here are some concerns:
 
 **Refactoring Advice**
 ```
-You: This function is getting too complex. 
+You: This function is getting too complex.
 How should I refactor it?
 
 AI: Let's break it into smaller functions...
@@ -100,29 +100,29 @@ Both ChatGPT and Claude support voice input through their mobile apps and (for C
 **1. Explaining Complex Problems**
 Speaking out loud can help you articulate issues more naturally:
 ```
-[Spoken]: "I have a function that's supposed to calculate 
-the total price including tax, but when I pass in a negative 
+[Spoken]: "I have a function that's supposed to calculate
+the total price including tax, but when I pass in a negative
 number, it returns a weird result. The tax rate is 0.08..."
 ```
 
 **2. Brainstorming While Away From Computer**
 ```
-[Spoken]: "I'm building a user authentication system. 
-Walk me through the security considerations I need 
+[Spoken]: "I'm building a user authentication system.
+Walk me through the security considerations I need
 to think about."
 ```
 
 **3. Learning During Commute**
 ```
-[Spoken]: "Explain the difference between synchronous 
+[Spoken]: "Explain the difference between synchronous
 and asynchronous programming in simple terms."
 ```
 
 **4. Debugging By Talking Through It**
 Sometimes explaining the problem verbally helps you understand it better:
 ```
-[Spoken]: "So I have this loop that goes through users, 
-and for each user I'm checking if their email exists, 
+[Spoken]: "So I have this loop that goes through users,
+and for each user I'm checking if their email exists,
 but it's really slow..."
 ```
 
@@ -148,8 +148,8 @@ but it's really slow..."
 **2. Pause for Complex Code**
 When dictating code, speak slowly:
 ```
-[Spoken]: "Function name is validate underscore email. 
-Takes parameter email as a string. Returns boolean. 
+[Spoken]: "Function name is validate underscore email.
+Takes parameter email as a string. Returns boolean.
 If at-sign not in email, return False..."
 ```
 
@@ -202,12 +202,12 @@ What's causing this and how do I fix it?
 
 **Helpful framing:**
 ```
-I'm new to Python. Can you explain [concept] 
+I'm new to Python. Can you explain [concept]
 in simple terms with an example?
 ```
 
 ```
-I understand the basics of React. 
+I understand the basics of React.
 Can you show me an intermediate example of [concept]?
 ```
 
@@ -259,7 +259,7 @@ AI: [explains in detail]
 I'm getting this error when running my Flask app:
 
 ```bash
-sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) 
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError)
 UNIQUE constraint failed: users.email
 ```
 
@@ -283,8 +283,8 @@ What's wrong?
 
 **AI Response:**
 ```
-The error means you're trying to insert a user with an email 
-that already exists in your database. Your email column has 
+The error means you're trying to insert a user with an email
+that already exists in your database. Your email column has
 a UNIQUE constraint, so SQLite prevents duplicates.
 
 To fix this, check if the email exists before creating the user:
@@ -306,14 +306,14 @@ Even better, handle it in your API endpoint:
 @app.route('/register', methods=['POST'])
 def register():
     data = request.get_json()
-    
+
     if User.query.filter_by(email=data['email']).first():
         return {"error": "Email already registered"}, 409
-    
+
     user = User(username=data['username'], email=data['email'])
     db.session.add(user)
     db.session.commit()
-    
+
     return {"message": "User created"}, 201
 ```
 
@@ -443,16 +443,16 @@ def process_payment(user_id, amount):
     # Validate inputs
     if amount <= 0:
         raise ValueError("Amount must be positive")
-    
+
     # Get user
     user = get_user(user_id)
     if not user:
         raise ValueError("User not found")
-    
+
     # Check balance
     if user.balance < amount:
         raise ValueError("Insufficient funds")
-    
+
     # Use database transaction for atomicity
     try:
         with database.transaction():
@@ -461,14 +461,14 @@ def process_payment(user_id, amount):
             log_transaction(user_id, amount, "payment")
     except DatabaseError:
         raise PaymentError("Payment failed - please try again")
-    
+
     # Send email separately (don't block on this)
     try:
         send_receipt_email(user.email, amount)
     except EmailError:
         # Log but don't fail the payment
         log_error(f"Failed to send receipt to {user.email}")
-    
+
     return "Payment processed successfully"
 ```
 

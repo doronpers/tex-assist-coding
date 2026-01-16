@@ -143,7 +143,7 @@ users = [
     {"name": "Bob", "age": 25},
 ]
 
-# Start typing: adult_users = 
+# Start typing: adult_users =
 ```
 
 Copilot suggests:

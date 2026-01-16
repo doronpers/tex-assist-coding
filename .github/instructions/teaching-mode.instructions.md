@@ -104,7 +104,7 @@ Later: "Advanced: decorators modify functions..."
    ```python
    def greet(name):
        return f"Hello, {name}!"
-   
+
    # Use it multiple times
    print(greet("Alice"))
    print(greet("Bob"))

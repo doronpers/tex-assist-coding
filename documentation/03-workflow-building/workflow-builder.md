@@ -29,9 +29,9 @@ Have you done the [Micro-motives Discovery Exercise](../../exercises/discover-yo
 
 **What specifically energizes you about coding?** (Write 2-3 things)
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 **Keep these in mind as you answer the rest - they should guide all choices.**
 

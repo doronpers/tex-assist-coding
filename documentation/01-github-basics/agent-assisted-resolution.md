@@ -107,8 +107,8 @@ Agent helps by:
 You: Here's my git status [shares screen]
      I'm confused about these conflicts.
 
-AI: I can see you have conflicts in 3 files. 
-    Let's tackle them one by one. 
+AI: I can see you have conflicts in 3 files.
+    Let's tackle them one by one.
     Start with models.py - that looks straightforward...
 ```
 
@@ -131,7 +131,7 @@ git diff --check >> git-state.txt
 ```
 You: I'm stuck with merge conflicts. Here's my state:
      [Paste contents of git-state.txt]
-     
+
      And here's the conflict in app.py:
      [Paste conflict section]
 
@@ -144,7 +144,7 @@ AI: I can help! Based on your history, here's what happened...
 
 **Ask the AI agent:**
 ```
-"I have merge conflicts after running git merge main. 
+"I have merge conflicts after running git merge main.
 Can you help me understand what's happening?"
 
 Share:
@@ -184,13 +184,13 @@ You: Starting with models.py. Here's the conflict:
      def get_user(user_id: str):
      >>>>>>> main
 
-Agent: This is a function signature change. The incoming change uses 
+Agent: This is a function signature change. The incoming change uses
        user_id (more descriptive) and str type (more flexible).
-       
+
        Let's combine the improvements:
        def get_user(user_id: int):
-       
-       This keeps the descriptive name but maintains int type for 
+
+       This keeps the descriptive name but maintains int type for
        backward compatibility. Does that match your usage?
 
 You: Yes! What about the function body?
@@ -239,20 +239,20 @@ You: HELP! I ran git reset --hard and lost my work!
 Agent: Don't panic! Git rarely loses things. Let's use reflog:
 
       Run: git reflog
-      
+
       Look for your commits (they'll have your commit messages).
       Find the commit hash before the reset.
-      
+
 You: I see it! a3f2b9c - "Add authentication feature"
 
 Agent: Perfect! Let's recover:
-      
+
       git checkout a3f2b9c
-      
+
       You're now at that commit. Let's create a branch:
-      
+
       git checkout -b recovered-auth-feature
-      
+
       Your work is recovered! Now let's understand what happened
       so we prevent this in the future...
 ```
@@ -271,16 +271,16 @@ Want to abort but not sure how.
 You: My rebase is totally messed up. How do I get out safely?
 
 Agent: Easy! Run: git rebase --abort
-      
+
       This returns you to before the rebase started.
       Nothing is lost.
-      
+
 You: Okay, I'm back. But I still need to clean up my commits...
 
 Agent: Let's approach this differently. Can you show me:
       1. What commits you want to keep
       2. What you're trying to achieve
-      
+
       We can plan a safer approach together.
 ```
 
@@ -294,7 +294,7 @@ Don't blindly copy-paste commands.
 
 Instead:
 You: What does 'git reset --hard' do?
-AI: It discards all changes and moves HEAD. 
+AI: It discards all changes and moves HEAD.
     CAUTION: This deletes uncommitted work!
 ```
 
@@ -322,7 +322,7 @@ Agent provides rollback strategy before you proceed.
 git status
 git diff
 
-# After completing all resolutions  
+# After completing all resolutions
 git diff --check  # Finds conflict markers
 ```
 
@@ -346,7 +346,7 @@ You: I'm about to commit. Any last checks?
 
 Agent: Yes!
 1. Run tests if you have them
-2. Check git diff --staged 
+2. Check git diff --staged
 3. Make sure commit message describes what you resolved
 4. Consider if any documentation needs updating
 ```
@@ -368,7 +368,7 @@ AI agents are powerful, but know when to escalate:
    - Commands you ran
    - Error messages
    - What AI suggested
-   
+
 2. **Take a screenshot** of your current state
 
 3. **Don't try more things** - Stop before making it worse
@@ -447,17 +447,17 @@ Unsure which migration number to use.
 
 **Using AI agent:**
 ```
-You: I have a conflict in migrations. Both branches created 
+You: I have a conflict in migrations. Both branches created
      migration_003.sql. Which number should I use?
 
 Agent: This is a common issue. You need to:
        1. Rename one to migration_004.sql
        2. Update any references to the migration number
        3. Run migrations in order to test
-       
+
        Let's check which migration was created first by looking
        at the timestamps...
-       
+
 You: Branch A was merged first.
 
 Agent: Then keep Branch A as _003, rename yours to _004.
@@ -479,18 +479,18 @@ You: I force pushed to develop by accident. Team is blocked.
      How do I fix this?
 
 Agent: Let's recover the old state:
-       
+
        1. Ask team to push their branches if they haven't
        2. Get the commit hash before your force push:
           git reflog origin/develop
        3. Reset develop to that point:
           git reset --hard <old-commit>
           git push --force-with-lease
-       
+
        But first, let's make sure we don't lose your changes...
        Create a feature branch for your work:
        git branch my-work-saved
-       
+
        Now let's restore develop safely...
 ```
 
@@ -509,14 +509,14 @@ You: I need commits A, D, and F from feature branch, but not
      the others. How do I cherry-pick safely?
 
 Agent: Let's check dependencies first:
-       
+
        git log feature-branch --oneline
-       
+
        [Reviews output]
-       
+
        I see commit D depends on commit C (they modify same file).
        You'll need C, D, and F.
-       
+
        Safe order:
        git cherry-pick <C-hash>
        # Test it works
@@ -524,7 +524,7 @@ Agent: Let's check dependencies first:
        # Test it works
        git cherry-pick <F-hash>
        # Final test
-       
+
        If any fail, we'll resolve conflicts one at a time.
 ```
 

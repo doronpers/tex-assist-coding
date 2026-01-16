@@ -17,7 +17,7 @@ Think of it like:
 ### Without a Workflow
 
 ```
-Idea → Start coding → Get stuck → Ask AI → Copy paste → 
+Idea → Start coding → Get stuck → Ask AI → Copy paste →
 → It breaks → Fix randomly → Repeat → Maybe it works?
 ```
 

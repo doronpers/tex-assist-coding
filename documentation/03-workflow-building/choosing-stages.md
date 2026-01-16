@@ -515,7 +515,7 @@ Peer review async in PR
 
 **Project:** Build a calculator in Python
 **Risk Level:** Zero
-**Workflow:** 
+**Workflow:**
 ```
 1. Open editor
 2. Write calculator code

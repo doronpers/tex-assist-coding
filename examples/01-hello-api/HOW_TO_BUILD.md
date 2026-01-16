@@ -61,7 +61,7 @@ touch main.py requirements.txt .gitignore
 
 # Or on Windows:
 type nul > main.py
-type nul > requirements.txt  
+type nul > requirements.txt
 type nul > .gitignore
 ```
 
@@ -277,10 +277,10 @@ def read_root():
 def greet_user(name: str):
     """
     Greet a specific user by name.
-    
+
     Args:
         name: The user's name
-        
+
     Returns:
         A personalized greeting message
     """
@@ -290,13 +290,13 @@ def greet_user(name: str):
 def read_item(item_id: int):
     """
     Get item information by ID.
-    
+
     Args:
         item_id: The item's unique identifier
-        
+
     Returns:
         Item details including ID, name, and description
-        
+
     Raises:
         HTTPException: If item_id is out of valid range
     """
@@ -383,10 +383,10 @@ def read_item(item_id: int):
     # Validate item_id
     if item_id < 1 or item_id > 1000:
         raise HTTPException(
-            status_code=404, 
+            status_code=404,
             detail="Item not found"
         )
-    
+
     return {
         "item_id": item_id,
         "name": f"Item #{item_id}",

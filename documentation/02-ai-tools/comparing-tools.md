@@ -213,7 +213,7 @@ applies them with your approval]
 
 **Step 1: Design (Claude)**
 ```
-Claude: "I need to add user authentication. 
+Claude: "I need to add user authentication.
 What architecture should I use?"
 
 → Get thorough architecture advice
@@ -221,7 +221,7 @@ What architecture should I use?"
 
 **Step 2: Generate Structure (ChatGPT)**
 ```
-ChatGPT: "Create the basic FastAPI endpoint structure 
+ChatGPT: "Create the basic FastAPI endpoint structure
 for user registration and login"
 
 → Get initial code structure
@@ -235,7 +235,7 @@ In VS Code: Add comments, let Copilot autocomplete
 
 **Step 4: Review (Claude)**
 ```
-Claude: "Review this authentication code for 
+Claude: "Review this authentication code for
 security vulnerabilities"
 
 → Get security feedback

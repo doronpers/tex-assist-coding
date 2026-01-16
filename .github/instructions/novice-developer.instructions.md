@@ -155,7 +155,7 @@ print("✓ Test passed!")
 "Let's talk about functions. Think of them like recipes:
 - Recipe name = function name
 - Ingredients = parameters
-- Instructions = function body  
+- Instructions = function body
 - Final dish = return value
 
 Here's a simple example:

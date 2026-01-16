@@ -86,7 +86,7 @@ Create a Python function that:
 ```
 Create a Python function that:
 - Accepts a list of numbers
-- Returns only the even numbers  
+- Returns only the even numbers
 - Returns them sorted in descending order
 
 Include type hints and a docstring.
@@ -101,10 +101,10 @@ Copy the code to a file.
 def filter_and_sort_evens(numbers):
     """
     Filter even numbers and sort them in descending order.
-    
+
     Args:
         numbers: List of integers
-        
+
     Returns:
         List of even integers sorted descending
     """
@@ -232,7 +232,7 @@ Teach me [topic] in this order:
 **Style 3: Interactive Learning**
 ```
 I want to learn [topic].
-Can you give me a challenge to solve, 
+Can you give me a challenge to solve,
 then explain the solution?
 ```
 
@@ -420,7 +420,7 @@ Based on what you learned, answer:
 ```
 Example:
 1. Learn concepts: ChatGPT
-2. Plan code: Claude  
+2. Plan code: Claude
 3. Implement: Copilot
 4. Review: Claude
 5. Debug: ChatGPT
@@ -525,7 +525,7 @@ Create a document:
 ## Best Use Case
 - [When AI was most helpful]
 
-## Worst Use Case  
+## Worst Use Case
 - [When AI wasn't helpful]
 
 ## My Recommendation

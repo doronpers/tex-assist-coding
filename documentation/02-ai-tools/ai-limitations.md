@@ -181,9 +181,9 @@ Vague prompts get vague results.
 ```
 Vague: "Create a user system"
 
-AI thinks: Registration? Login? Profiles? Admin panel? 
+AI thinks: Registration? Login? Profiles? Admin panel?
          OAuth? Email verification? Password reset?
-         
+
 Result: Generic half-solution to unclear problem
 ```
 

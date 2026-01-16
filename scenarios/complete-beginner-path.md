@@ -171,7 +171,7 @@ Instead of "good first projects," ask: **What problem do I actually want to solv
    - What could go wrong?
 
 2. Ask AI to help plan it:
-   "I want to build [your idea]. 
+   "I want to build [your idea].
    Help me break this into small steps."
 
 3. Build one step at a time with AI help

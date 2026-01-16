@@ -94,13 +94,13 @@ Review: Thorough code review with security focus
 
 ```
 Step 1: Planning
-You: "Help me plan a user registration API endpoint. 
+You: "Help me plan a user registration API endpoint.
 What should I consider?"
 
 ChatGPT: [provides comprehensive plan]
 
 Step 2: Building
-You: "Generate FastAPI code for user registration 
+You: "Generate FastAPI code for user registration
 with email validation"
 
 ChatGPT: [generates code]
@@ -248,7 +248,7 @@ Why: Need conversation and reasoning, not code generation.
 
 **Example:**
 ```
-You: "I want to build a RESTful API for a todo app. 
+You: "I want to build a RESTful API for a todo app.
 Help me plan the endpoints and data structure."
 
 Claude: "Let's think through this systematically:
@@ -372,11 +372,11 @@ Claude: "I'll review this systematically:
 Security Issues Found:
 1. Password stored in plain text (line 23)
    - FIX: Use bcrypt.hashpw()
-   
+
 2. SQL query uses string formatting (line 45)
    - RISK: SQL injection
    - FIX: Use parameterized queries
-   
+
 3. No rate limiting on login endpoint
    - RISK: Brute force attacks
    - FIX: Add rate limiting middleware

@@ -1,7 +1,7 @@
 # Dark Horse Optimization Summary
 
-**Date:** 2026-01-06  
-**Framework:** Todd Rose's "Dark Horse" principles  
+**Date:** 2026-01-06
+**Framework:** Todd Rose's "Dark Horse" principles
 **Goal:** Optimize repository for users who prioritize fulfillment, individuality, and personal growth over standardized paths
 
 ## What Was Done
@@ -58,7 +58,7 @@ A hands-on 30-45 minute exercise helping users:
   - Referenced in learning scenarios
 
 #### Learning Paths
-- **scenarios/complete-beginner-path.md**: 
+- **scenarios/complete-beginner-path.md**:
   - Added Dark Horse framing at top
   - Emphasized "use as menu, not prescription"
   - Integrated micro-motive discovery in Week 1
@@ -115,13 +115,13 @@ A hands-on 30-45 minute exercise helping users:
 ### 4. Key Messaging Changes
 
 #### Anti-Standardization
-**Before:** "Everyone learns at their own pace" (acknowledges variation)  
+**Before:** "Everyone learns at their own pace" (acknowledges variation)
 **After:** "Your pace is YOUR pace - compare only to your past self" (actively rejects comparison)
 
-**Before:** "Good first projects: todo list, calculator..."  
+**Before:** "Good first projects: todo list, calculator..."
 **After:** "What problem do YOU actually want to solve? What would energize YOU? Match projects to YOUR micro-motives"
 
-**Before:** "Start simple, add complexity"  
+**Before:** "Start simple, add complexity"
 **After:** "Start simple. Add complexity only when needed FOR YOU. Remove what doesn't serve YOU."
 
 #### Pro-Individuality
@@ -261,7 +261,7 @@ A hands-on 30-45 minute exercise helping users:
 - **"Use as menu, not prescription"** Paths as options framework
 
 ### Philosophical Shifts:
-- **From:** "Here's the right way" 
+- **From:** "Here's the right way"
 - **To:** "Here are options - you choose based on YOUR needs"
 
 - **From:** "Everyone learns differently" (acknowledgment)

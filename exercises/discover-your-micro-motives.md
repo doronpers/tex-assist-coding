@@ -1,7 +1,7 @@
 # Exercise: Discover Your Coding Micro-motives
 
-**Time:** 30-45 minutes  
-**Goal:** Understand what SPECIFICALLY energizes you about coding  
+**Time:** 30-45 minutes
+**Goal:** Understand what SPECIFICALLY energizes you about coding
 **Why:** So you can make choices aligned with your authentic motivations
 
 ## What Are Micro-motives?
@@ -24,11 +24,11 @@ Answer these honestly. There are no wrong answers.
 
 *Write 2-3 specific moments:*
 
-1. 
+1.
 
-2. 
+2.
 
-3. 
+3.
 
 **What made those moments energizing? Be specific:**
 
@@ -39,11 +39,11 @@ Answer these honestly. There are no wrong answers.
 
 *Write 2-3 moments:*
 
-1. 
+1.
 
-2. 
+2.
 
-3. 
+3.
 
 **What specifically drained your energy?**
 
@@ -88,7 +88,7 @@ You can't always know your micro-motives through reflection alone. Try these min
 <body>
     <h1 id="heading">Click the button!</h1>
     <button onclick="changeColor()">Change Color</button>
-    
+
     <script>
         function changeColor() {
             const colors = ['red', 'blue', 'green', 'purple', 'orange'];
@@ -118,7 +118,7 @@ def find_largest(numbers):
     """Find and return the largest number in a list."""
     if not numbers:
         return None
-    
+
     largest = numbers[0]
     for num in numbers:
         if num > largest:
@@ -180,27 +180,27 @@ Based on everything above, complete these sentences:
 
 **I am energized when:**
 
-1. 
+1.
 
-2. 
+2.
 
-3. 
+3.
 
 **I am drained when:**
 
-1. 
+1.
 
-2. 
+2.
 
-3. 
+3.
 
 **The aspects of coding I find most fulfilling are:**
 
-1. 
+1.
 
-2. 
+2.
 
-3. 
+3.
 
 ## Part 4: Application
 
@@ -234,11 +234,11 @@ Based on everything above, complete these sentences:
 
 **Write 3 project ideas that align with YOUR micro-motives:**
 
-1. 
+1.
 
-2. 
+2.
 
-3. 
+3.
 
 ### Choosing Learning Resources
 
@@ -300,39 +300,39 @@ Fill this out as your personal reference:
 
 **Top 3 things that energize me in coding:**
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ### My Drainers
 
 **Top 3 things that drain me in coding:**
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ### My Optimal Alignment
 
 **Project types that match my micro-motives:**
-- 
-- 
-- 
+-
+-
+-
 
 **Learning styles that match my micro-motives:**
-- 
-- 
-- 
+-
+-
+-
 
 **Technologies I want to explore:**
-- 
-- 
-- 
+-
+-
+-
 
 **Work environments that energize me:**
-- 
-- 
-- 
+-
+-
+-
 
 ### My Commitment
 
@@ -384,7 +384,7 @@ Fill this out as your personal reference:
 
 ---
 
-**Done with this exercise?** 
+**Done with this exercise?**
 
 Save your micro-motive map somewhere you can reference it when making decisions about:
 - What to learn next

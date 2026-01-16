@@ -23,7 +23,7 @@ Comprehensive security patterns are being developed. For now:
 # ❌ BAD
 password = "secret123"
 
-# ✅ GOOD  
+# ✅ GOOD
 import bcrypt
 hashed = bcrypt.hashpw(password.encode(), bcrypt.gensalt())
 ```
