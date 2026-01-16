@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added (2026-01-06) - Major Content Update
+- **Added (2026-01-06) - Major Content Update**
+
 - **Complete Workflow Building Section** - 7 comprehensive guides:
   - Stages of Development - Understanding the development lifecycle
   - Using AI in Your Workflow - Single vs multi-agent approaches
@@ -30,13 +31,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **CONTRIBUTORS.md** - Recognition for contributors
 - **Updated README** - Honest status indicators (✅ Complete, 🚧 Growing) for each section
 
-### Changed
+- **Changed**
+
 - README now shows "Complete Beginner" as Path 1
 - README accurately reflects current vs. planned content
 - All workflow documentation cross-references updated
 - Removed "(Coming soon)" markers from completed sections
 
-### Improved
+- **Improved**
+
 - Better beginner focus throughout new content
 - Clear, actionable examples in all new guides
 - Consistent formatting and structure
@@ -44,7 +47,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - Previous
 
-### Added
+- **Added**
+
 - Badges to README.md for license, GitHub stars, PRs, and Markdown
 - Voice input documentation for ChatGPT and Claude
   - Added voice input section to AI tools overview
@@ -52,13 +56,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Voice input feature comparison in tool comparison table
 - This CHANGELOG file to track project changes
 
-### Changed
+- **Changed**
+
 - Enhanced AI tools documentation with voice/audio context
 - Updated comparison table to include voice input capabilities
 
 ## [1.0.0] - 2026-01-04
 
-### Added
+- **Added**
+
 - Initial repository structure with comprehensive learning materials
 - GitHub basics documentation with beginner-friendly explanations
 - AI tools guides covering GitHub Copilot, ChatGPT, and Claude
@@ -70,7 +76,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Templates for learning journals, PR descriptions, and workflow design
 - Contributing guidelines and terminology guide
 
-### Documentation Structure
+- **Documentation Structure**
+
 - `/documentation/01-github-basics/` - Version control fundamentals
 - `/documentation/02-ai-tools/` - AI-assisted coding tool guides
 - `/documentation/03-workflow-building/` - Personal workflow development
@@ -80,7 +87,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `/scenarios/` - Real-world learning paths
 - `/templates/` - Reusable document templates
 
-### Philosophy
+- **Philosophy**
+
 - No timeline pressure - learn at your own pace
 - Exploration over prescription - multiple learning paths
 - Building confidence through success - gradual complexity
