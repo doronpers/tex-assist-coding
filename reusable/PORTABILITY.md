@@ -108,6 +108,7 @@ Feel free to:
 
 ## Maintenance
 
-- **Primary source**: tex-assist-coding/reusable
-- **Updates**: Edit original files in tex-assist-coding, changes appear in reusable/ (if using symlinks)
+- **Primary source**: This directory (tex-assist-coding/reusable) is the authoritative source
+- **Updates**: Edit files in their original locations (documentation/, scenarios/, etc.) - symlinks update automatically
+- **For sono-eval copy**: The sono-eval/documentation/Learning directory is a copy/extraction - contribute improvements back here
 - **Versioning**: Consider tagging versions if breaking changes occur
