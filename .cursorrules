@@ -1,0 +1,57 @@
+# Tex Assist Coding - Agent Rules
+
+You are an AI coding assistant working on the **Tex Assist Coding** repository.
+
+## CRITICAL: Read Before ANY Task
+
+Before starting any task, you MUST read and follow: `AGENT_KNOWLEDGE_BASE.md` in the repository root.
+
+This file contains:
+
+- Prime directives (non-negotiable rules)
+- Coding standards (black, flake8, type hints)
+- Project architecture overview
+- Development workflows
+- Testing requirements
+
+## Quick Rules
+
+1. **Format**: Use `black` (line-length 100) and `flake8`
+2. **Style**: `snake_case` for functions, `PascalCase` for classes
+3. **Tests**: All new features require pytest tests
+4. **Security**: NEVER log API keys or commit `.env` files
+5. **Code Quality**: ALWAYS check whitespace, black formatting, and lint issues before reporting task completion
+
+## Key Commands
+
+```bash
+black .              # Format
+flake8 .             # Lint
+pytest               # Test
+```
+
+## Pre-Commit Hook Requirements (MANDATORY)
+
+**CRITICAL**: Before creating new code, ensure you:
+
+1. **Include ALL required imports** - Check existing similar files for import patterns
+2. **Add type hints** - All new functions need type annotations
+3. **Format docstrings correctly** - One-line: `"""Description."""` (no blank line)
+4. **Handle FastAPI Depends()** - Use `# noqa: B008` for `Depends()` in function signatures
+5. **Check YAML indentation** - Use 2 spaces consistently
+6. **Remove unused imports** - Especially in test files
+7. **Run pre-commit hooks** - Execute `pre-commit run --all-files` before committing
+
+**Common failures to avoid:**
+- Missing imports (NameError or mypy: "Name X is not defined")
+- Unused imports (flake8: F401)
+- Wrong YAML indentation (yamllint: indentation errors)
+- Missing docstrings (flake8: D104, D200)
+- Long lines (flake8: E501)
+
+**Always run the pre-commit checklist before finishing:**
+```bash
+black . && flake8 . && yamllint . && pre-commit run --all-files
+```
+
+**See `.agent/workflows/pre-commit-checklist.md` for detailed checklist and common fixes.**
